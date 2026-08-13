@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.12.62",
+        "date":  "2026-08-13",
+        "notes":  null,
+        "git":  "2e6bcd1",
+        "file":  "archive/estim8_poc_tools_extension_1.12.62.rbz"
+    },
+    {
         "version":  "1.12.61",
         "date":  "2026-08-13",
         "notes":  "Export report PERF probes: Ruby phase timers + PowerShell/Excel TIMES= marks (ESTIM8_PERF)",
