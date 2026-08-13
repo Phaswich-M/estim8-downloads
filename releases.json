@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.12.63",
+        "date":  "2026-08-13",
+        "notes":  null,
+        "git":  "2e6bcd1",
+        "file":  "archive/estim8_poc_tools_extension_1.12.63.rbz"
+    },
+    {
         "version":  "1.12.62",
         "date":  "2026-08-13",
         "notes":  null,
