@@ -1,5 +1,33 @@
 [
     {
+        "version":  "1.12.68",
+        "date":  "2026-08-13",
+        "notes":  null,
+        "git":  "01be404",
+        "file":  "archive/estim8_poc_tools_extension_1.12.68.rbz"
+    },
+    {
+        "version":  "1.12.67",
+        "date":  "2026-08-13",
+        "notes":  "Regenerate overlays current capping tile toggle",
+        "git":  "01be404",
+        "file":  "archive/estim8_poc_tools_extension_1.12.67.rbz"
+    },
+    {
+        "version":  "1.12.66",
+        "date":  "2026-08-13",
+        "notes":  "Capping tile debug logging",
+        "git":  "01be404",
+        "file":  "archive/estim8_poc_tools_extension_1.12.66.rbz"
+    },
+    {
+        "version":  "1.12.65",
+        "date":  "2026-08-13",
+        "notes":  "Capping tile dropdown exempt from wall series filter",
+        "git":  "2aec84c",
+        "file":  "archive/estim8_poc_tools_extension_1.12.65.rbz"
+    },
+    {
         "version":  "1.12.64",
         "date":  "2026-08-13",
         "notes":  null,
