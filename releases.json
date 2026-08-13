@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.12.71",
+        "date":  "2026-08-13",
+        "notes":  "Bump Estim8ToolSketchup: export report PERF probes (v1.12.61)",
+        "git":  "03cc1e7",
+        "file":  "archive/estim8_poc_tools_extension_1.12.71.rbz"
+    },
+    {
         "version":  "1.12.70",
         "date":  "2026-08-13",
         "notes":  null,
