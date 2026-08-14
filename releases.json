@@ -1,5 +1,19 @@
 [
     {
+        "version":  "1.13.37",
+        "date":  "2026-08-14",
+        "notes":  "Rake row = stepped-down tail only; full-height part keeps its own row",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.37.rbz"
+    },
+    {
+        "version":  "1.13.36",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: snap a cell base off a rare level to the floor\u0027s real levels",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.36.rbz"
+    },
+    {
         "version":  "1.13.35",
         "date":  "2026-08-14",
         "notes":  "Rake length back to summed step widths (FGN len is a bbox guess)",
