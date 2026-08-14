@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.30",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: rake runs report at max height + \u0027Rake Wall\u0027 note",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.30.rbz"
+    },
+    {
         "version":  "1.13.29",
         "date":  "2026-08-14",
         "notes":  "Result + Catalogue Mismatch dialogs: top-aligned scrollable content, no clipped buttons",
