@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.16",
+        "date":  "2026-08-14",
+        "notes":  "Block templates: drop duplicate-name validation, code is the only identity",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.16.rbz"
+    },
+    {
         "version":  "1.13.15",
         "date":  "2026-08-14",
         "notes":  "Slim scrollbars across every Estim8 dialog (shared scrollbar_css)",
