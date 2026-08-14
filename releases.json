@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.12",
+        "date":  "2026-08-14",
+        "notes":  "Block Master Template: lock flip checkboxes in view mode",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.12.rbz"
+    },
+    {
         "version":  "1.13.11",
         "date":  "2026-08-14",
         "notes":  "Block Master Template: view = locked editor, bigger icon buttons",
