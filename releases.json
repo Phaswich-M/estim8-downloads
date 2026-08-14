@@ -1,5 +1,229 @@
 [
     {
+        "version":  "1.13.3",
+        "date":  "2026-08-14",
+        "notes":  "Bump Estim8ToolSketchup: wall linear coverage majority (v1.13.2)",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.3.rbz"
+    },
+    {
+        "version":  "1.13.2",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: covered means MOST cells have something above, not a third",
+        "git":  "4602587",
+        "file":  "archive/estim8_poc_tools_extension_1.13.2.rbz"
+    },
+    {
+        "version":  "1.13.1",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: coverage uses a floor-wide top map (keyless blocks looked like wall tops)",
+        "git":  "052162c",
+        "file":  "archive/estim8_poc_tools_extension_1.13.1.rbz"
+    },
+    {
+        "version":  "1.13.0",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: drop the taller-neighbour test, it ate the block where a stub meets a tall wall",
+        "git":  "545de52",
+        "file":  "archive/estim8_poc_tools_extension_1.13.0.rbz"
+    },
+    {
+        "version":  "1.12.99",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: baseless blocks borrow from same-height blocks in the run, not the run minimum",
+        "git":  "19ab803",
+        "file":  "archive/estim8_poc_tools_extension_1.12.99.rbz"
+    },
+    {
+        "version":  "1.12.98",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: tie on the base histogram goes to the higher base",
+        "git":  "bf78aa4",
+        "file":  "archive/estim8_poc_tools_extension_1.12.98.rbz"
+    },
+    {
+        "version":  "1.12.97",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: share block_base with the debug scripts",
+        "git":  "1fb7d1a",
+        "file":  "archive/estim8_poc_tools_extension_1.12.97.rbz"
+    },
+    {
+        "version":  "1.12.96",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: block base = modal cell base, not the lowest cell it touches",
+        "git":  "5683259",
+        "file":  "archive/estim8_poc_tools_extension_1.12.96.rbz"
+    },
+    {
+        "version":  "1.12.95",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: no base lending between cells (floor map already sees the cleanout)",
+        "git":  "401a866",
+        "file":  "archive/estim8_poc_tools_extension_1.12.95.rbz"
+    },
+    {
+        "version":  "1.12.94",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: base lending one cell only (T-junction bleed)",
+        "git":  "079207c",
+        "file":  "archive/estim8_poc_tools_extension_1.12.94.rbz"
+    },
+    {
+        "version":  "1.12.93",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: base lending radius 200mm so it cannot reach around a corner",
+        "git":  "079207c",
+        "file":  "archive/estim8_poc_tools_extension_1.12.93.rbz"
+    },
+    {
+        "version":  "1.12.92",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: inherit a lower base only from short neighbours, so a step does not bleed",
+        "git":  "6997f1a",
+        "file":  "archive/estim8_poc_tools_extension_1.12.92.rbz"
+    },
+    {
+        "version":  "1.12.91",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: drop the 30 percent share filter, it was eating the stepped leg",
+        "git":  "16e7e82",
+        "file":  "archive/estim8_poc_tools_extension_1.12.91.rbz"
+    },
+    {
+        "version":  "1.12.90",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: column bases come from a floor-wide map (hand-edited blocks lose their wall_id)",
+        "git":  "f8f303d",
+        "file":  "archive/estim8_poc_tools_extension_1.12.90.rbz"
+    },
+    {
+        "version":  "1.12.89",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: per-column base so a stepped wall reports 2600 and 2400 in one run",
+        "git":  "2fc706f",
+        "file":  "archive/estim8_poc_tools_extension_1.12.89.rbz"
+    },
+    {
+        "version":  "1.12.88",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: per-run datum = modal column base",
+        "git":  "c9d9e27",
+        "file":  "archive/estim8_poc_tools_extension_1.12.88.rbz"
+    },
+    {
+        "version":  "1.12.87",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: heights off a per-floor slab datum (modal column base)",
+        "git":  "41d1f32",
+        "file":  "archive/estim8_poc_tools_extension_1.12.87.rbz"
+    },
+    {
+        "version":  "1.12.86",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: datum from blocks carrying masonry; drop leftover base course under a tall run",
+        "git":  "07a3d85",
+        "file":  "archive/estim8_poc_tools_extension_1.12.86.rbz"
+    },
+    {
+        "version":  "1.12.85",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: neighbourhood radius 400mm via dilated top map; proud base course belongs to its wall",
+        "git":  "c429fb0",
+        "file":  "archive/estim8_poc_tools_extension_1.12.85.rbz"
+    },
+    {
+        "version":  "1.12.84",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: neighbour radius 2 + nb-height diagnostic",
+        "git":  "13ad216",
+        "file":  "archive/estim8_poc_tools_extension_1.12.84.rbz"
+    },
+    {
+        "version":  "1.12.83",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: reject top-of-wall candidates with a taller neighbouring cell (proud cleanout course)",
+        "git":  "a726e2b",
+        "file":  "archive/estim8_poc_tools_extension_1.12.83.rbz"
+    },
+    {
+        "version":  "1.12.82",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: drop floor datum (D/E read 4800); PERF dumps every top elevation with block codes",
+        "git":  "5061bb7",
+        "file":  "archive/estim8_poc_tools_extension_1.12.82.rbz"
+    },
+    {
+        "version":  "1.12.81",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: measure heights off the floor slab datum; revert inset/per-cell base",
+        "git":  "436c901",
+        "file":  "archive/estim8_poc_tools_extension_1.12.81.rbz"
+    },
+    {
+        "version":  "1.12.80",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: inset 200mm footprint cells so proud lintels/sills stop inventing heights",
+        "git":  "836d064",
+        "file":  "archive/estim8_poc_tools_extension_1.12.80.rbz"
+    },
+    {
+        "version":  "1.12.79",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: height measured from the wall base under each block, not the run bbox floor",
+        "git":  "5a87dfe",
+        "file":  "archive/estim8_poc_tools_extension_1.12.79.rbz"
+    },
+    {
+        "version":  "1.12.78",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: qualify heights by run share (30%) so a run with two real legs keeps both",
+        "git":  "1c76e1b",
+        "file":  "archive/estim8_poc_tools_extension_1.12.78.rbz"
+    },
+    {
+        "version":  "1.12.77",
+        "date":  "2026-08-13",
+        "notes":  "Export: Excel fill runs with ScreenUpdating/events off and manual calc",
+        "git":  "ca7b78d",
+        "file":  "archive/estim8_poc_tools_extension_1.12.77.rbz"
+    },
+    {
+        "version":  "1.12.76",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: keep only heights a run is mostly built at; drop stub/lintel heights",
+        "git":  "c8d5e8c",
+        "file":  "archive/estim8_poc_tools_extension_1.12.76.rbz"
+    },
+    {
+        "version":  "1.12.75",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: third-cell coverage threshold + per-run height profile PERF dump",
+        "git":  "38de647",
+        "file":  "archive/estim8_poc_tools_extension_1.12.75.rbz"
+    },
+    {
+        "version":  "1.12.74",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: top-of-wall test uses cell majority so tee/corner blocks are not dropped",
+        "git":  "8165589",
+        "file":  "archive/estim8_poc_tools_extension_1.12.74.rbz"
+    },
+    {
+        "version":  "1.12.73",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: measure top-of-wall blocks per height; fold sub-5% steps into nearest height",
+        "git":  "74cfb39",
+        "file":  "archive/estim8_poc_tools_extension_1.12.73.rbz"
+    },
+    {
+        "version":  "1.12.72",
+        "date":  "2026-08-13",
+        "notes":  "Wall Linear Metre: split each run by height profile (2400+3200 no longer collapse to tallest)",
+        "git":  "03cc1e7",
+        "file":  "archive/estim8_poc_tools_extension_1.12.72.rbz"
+    },
+    {
         "version":  "1.12.71",
         "date":  "2026-08-13",
         "notes":  "Bump Estim8ToolSketchup: export report PERF probes (v1.12.61)",
