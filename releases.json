@@ -1,5 +1,26 @@
 [
     {
+        "version":  "1.13.50",
+        "date":  "2026-08-14",
+        "notes":  "Rake span measured in the leg frame so the rotated corner block counts",
+        "git":  "80b47b5",
+        "file":  "archive/estim8_poc_tools_extension_1.13.50.rbz"
+    },
+    {
+        "version":  "1.13.49",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: a sliver row folds into a dominant row within two courses",
+        "git":  "5c51f10",
+        "file":  "archive/estim8_poc_tools_extension_1.13.49.rbz"
+    },
+    {
+        "version":  "1.13.48",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: lowest base over the block\u0027s CORE cells (3400/3600 split off by one block)",
+        "git":  "5c51f10",
+        "file":  "archive/estim8_poc_tools_extension_1.13.48.rbz"
+    },
+    {
         "version":  "1.13.47",
         "date":  "2026-08-14",
         "notes":  "Rake leg length = end-to-end span on its line (covered tops included)",
