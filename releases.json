@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.20",
+        "date":  "2026-08-14",
+        "notes":  "Block Master Template: block ctrl+wheel / ctrl +- zoom",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.20.rbz"
+    },
+    {
         "version":  "1.13.19",
         "date":  "2026-08-14",
         "notes":  "Block Master Template: sort cards by code (natural order) within each series",
