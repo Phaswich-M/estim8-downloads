@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.51",
+        "date":  "2026-08-14",
+        "notes":  "Rake span walks the line until masonry breaks (500mm gap) instead of stopping at the last top",
+        "git":  "54b1785",
+        "file":  "archive/estim8_poc_tools_extension_1.13.51.rbz"
+    },
+    {
         "version":  "1.13.50",
         "date":  "2026-08-14",
         "notes":  "Rake span measured in the leg frame so the rotated corner block counts",
