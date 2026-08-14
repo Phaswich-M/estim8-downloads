@@ -1,5 +1,47 @@
 [
     {
+        "version":  "1.13.47",
+        "date":  "2026-08-14",
+        "notes":  "Rake leg length = end-to-end span on its line (covered tops included)",
+        "git":  "2142f12",
+        "file":  "archive/estim8_poc_tools_extension_1.13.47.rbz"
+    },
+    {
+        "version":  "1.13.46",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: fold the sliver row at the floor total, not per leg",
+        "git":  "2142f12",
+        "file":  "archive/estim8_poc_tools_extension_1.13.46.rbz"
+    },
+    {
+        "version":  "1.13.45",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: fold a sliver row one course into the long row above it",
+        "git":  "3170671",
+        "file":  "archive/estim8_poc_tools_extension_1.13.45.rbz"
+    },
+    {
+        "version":  "1.13.44",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: drop a block shadowed by the same masonry one course taller",
+        "git":  "ce5d7e7",
+        "file":  "archive/estim8_poc_tools_extension_1.13.44.rbz"
+    },
+    {
+        "version":  "1.13.43",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: covered back to a third (capping overlaps only part of a pier top block)",
+        "git":  "1a59318",
+        "file":  "archive/estim8_poc_tools_extension_1.13.43.rbz"
+    },
+    {
+        "version":  "1.13.42",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: block base = lowest masonry under it (pier courses alternate 90deg)",
+        "git":  "5b64b4c",
+        "file":  "archive/estim8_poc_tools_extension_1.13.42.rbz"
+    },
+    {
         "version":  "1.13.41",
         "date":  "2026-08-14",
         "notes":  "Wall Linear Metre: measure height profile per LEG so rake only claims its own wall",
