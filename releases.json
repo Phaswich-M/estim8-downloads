@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.29",
+        "date":  "2026-08-14",
+        "notes":  "Result + Catalogue Mismatch dialogs: top-aligned scrollable content, no clipped buttons",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.29.rbz"
+    },
+    {
         "version":  "1.13.28",
         "date":  "2026-08-14",
         "notes":  "Export Quantities dialog: taller, scrollable, top-aligned so icon/buttons are not clipped",
