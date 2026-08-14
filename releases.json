@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.27",
+        "date":  "2026-08-14",
+        "notes":  "Curve blend: straight-zone blocks overhanging a curve zone get averaged bend rotation",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.27.rbz"
+    },
+    {
         "version":  "1.13.26",
         "date":  "2026-08-14",
         "notes":  "Bulk Import Review: border-box body so the action bar is never clipped",
