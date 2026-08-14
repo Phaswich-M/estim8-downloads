@@ -1,5 +1,26 @@
 [
     {
+        "version":  "1.13.33",
+        "date":  "2026-08-14",
+        "notes":  "Rake Wall note moves to col D",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.33.rbz"
+    },
+    {
+        "version":  "1.13.32",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: adopt stray blocks within 1m of a wall run footprint",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.32.rbz"
+    },
+    {
+        "version":  "1.13.31",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: ignore catalogue display rows (single course, far from any wall)",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.31.rbz"
+    },
+    {
         "version":  "1.13.30",
         "date":  "2026-08-14",
         "notes":  "Wall Linear Metre: rake runs report at max height + \u0027Rake Wall\u0027 note",
