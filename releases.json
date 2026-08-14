@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.7",
+        "date":  "2026-08-14",
+        "notes":  "Block Master Template: series filter dropdown + collapsible series accordions",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.7.rbz"
+    },
+    {
         "version":  "1.13.6",
         "date":  "2026-08-14",
         "notes":  "Block Master Template cards: darker labels, role list clamped +N, multi-role badge",
