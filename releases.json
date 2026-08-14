@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.13.15",
+        "date":  "2026-08-14",
+        "notes":  "Slim scrollbars across every Estim8 dialog (shared scrollbar_css)",
+        "git":  "66db085",
+        "file":  "archive/estim8_poc_tools_extension_1.13.15.rbz"
+    },
+    {
         "version":  "1.13.14",
         "date":  "2026-08-14",
         "notes":  "Block Master Template: slim styled scrollbars",
