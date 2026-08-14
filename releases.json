@@ -1,5 +1,26 @@
 [
     {
+        "version":  "1.13.40",
+        "date":  "2026-08-14",
+        "notes":  "Rake counts the whole run at max height (per-wall, not per-column)",
+        "git":  "0a74048",
+        "file":  "archive/estim8_poc_tools_extension_1.13.40.rbz"
+    },
+    {
+        "version":  "1.13.39",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: base decided by the block\u0027s core cells, not every cell it touches",
+        "git":  "0a74048",
+        "file":  "archive/estim8_poc_tools_extension_1.13.39.rbz"
+    },
+    {
+        "version":  "1.13.38",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: base tie goes to the lower base again",
+        "git":  "b284673",
+        "file":  "archive/estim8_poc_tools_extension_1.13.38.rbz"
+    },
+    {
         "version":  "1.13.37",
         "date":  "2026-08-14",
         "notes":  "Rake row = stepped-down tail only; full-height part keeps its own row",
