@@ -1,5 +1,159 @@
 [
     {
+        "version":  "1.13.73",
+        "date":  "2026-08-17",
+        "notes":  "Bump Estim8ToolSketchup: wall linear junk-row fixes (v1.13.72)",
+        "git":  "6229561",
+        "file":  "archive/estim8_poc_tools_extension_1.13.73.rbz"
+    },
+    {
+        "version":  "1.13.72",
+        "date":  "2026-08-17",
+        "notes":  "Fold a one-course minority into its own leg\u0027s height",
+        "git":  "3bd7d19",
+        "file":  "archive/estim8_poc_tools_extension_1.13.72.rbz"
+    },
+    {
+        "version":  "1.13.71",
+        "date":  "2026-08-17",
+        "notes":  "Linear-metre markers decide the height of the stretch they cover",
+        "git":  "3bd7d19",
+        "file":  "archive/estim8_poc_tools_extension_1.13.71.rbz"
+    },
+    {
+        "version":  "1.13.70",
+        "date":  "2026-08-17",
+        "notes":  "Opening-head blocks borrow the base of the NEAREST block, not the run mode",
+        "git":  "0c04480",
+        "file":  "archive/estim8_poc_tools_extension_1.13.70.rbz"
+    },
+    {
+        "version":  "1.13.69",
+        "date":  "2026-08-17",
+        "notes":  "Revert column-walk base again (breaks both models)",
+        "git":  "56c7dba",
+        "file":  "archive/estim8_poc_tools_extension_1.13.69.rbz"
+    },
+    {
+        "version":  "1.13.68",
+        "date":  "2026-08-17",
+        "notes":  "Base = level most of the block\u0027s footprint stands on (column walk)",
+        "git":  "56c7dba",
+        "file":  "archive/estim8_poc_tools_extension_1.13.68.rbz"
+    },
+    {
+        "version":  "1.13.67",
+        "date":  "2026-08-17",
+        "notes":  "Drop runs with no exposed top instead of guessing from the bbox",
+        "git":  "14d3410",
+        "file":  "archive/estim8_poc_tools_extension_1.13.67.rbz"
+    },
+    {
+        "version":  "1.13.66",
+        "date":  "2026-08-17",
+        "notes":  "PERF dumps each leg profile",
+        "git":  "14d3410",
+        "file":  "archive/estim8_poc_tools_extension_1.13.66.rbz"
+    },
+    {
+        "version":  "1.13.65",
+        "date":  "2026-08-17",
+        "notes":  "Base course beside a taller wall is not a wall top",
+        "git":  "14d3410",
+        "file":  "archive/estim8_poc_tools_extension_1.13.65.rbz"
+    },
+    {
+        "version":  "1.13.64",
+        "date":  "2026-08-17",
+        "notes":  "PERF WL line carries the run bbox",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.64.rbz"
+    },
+    {
+        "version":  "1.13.63",
+        "date":  "2026-08-17",
+        "notes":  "Drop height cap and per-run base map experiments",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.63.rbz"
+    },
+    {
+        "version":  "1.13.62",
+        "date":  "2026-08-17",
+        "notes":  "Cap run height at the height it was drawn at",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.62.rbz"
+    },
+    {
+        "version":  "1.13.61",
+        "date":  "2026-08-17",
+        "notes":  "Base map per run, not per floor",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.61.rbz"
+    },
+    {
+        "version":  "1.13.60",
+        "date":  "2026-08-17",
+        "notes":  "Revert stack-walk base, keep sliver fold cap",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.60.rbz"
+    },
+    {
+        "version":  "1.13.59",
+        "date":  "2026-08-17",
+        "notes":  "Fix NameError in stack walk (modifier while)",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.59.rbz"
+    },
+    {
+        "version":  "1.13.58",
+        "date":  "2026-08-17",
+        "notes":  "Column walk stays inside its own run",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.58.rbz"
+    },
+    {
+        "version":  "1.13.57",
+        "date":  "2026-08-17",
+        "notes":  "Column walk per cell, base = level most of the footprint reaches",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.57.rbz"
+    },
+    {
+        "version":  "1.13.56",
+        "date":  "2026-08-17",
+        "notes":  "Wall height walks the real column under each block",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.56.rbz"
+    },
+    {
+        "version":  "1.13.55",
+        "date":  "2026-08-17",
+        "notes":  "Sliver fold only eats rows under 1200mm",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.55.rbz"
+    },
+    {
+        "version":  "1.13.54",
+        "date":  "2026-08-17",
+        "notes":  "Wall height ignores masonry below z=0",
+        "git":  "334ba27",
+        "file":  "archive/estim8_poc_tools_extension_1.13.54.rbz"
+    },
+    {
+        "version":  "1.13.53",
+        "date":  "2026-08-14",
+        "notes":  "Revert the patch-span base lift, it collapsed the real 3000 and 3600 rows too",
+        "git":  "a704b50",
+        "file":  "archive/estim8_poc_tools_extension_1.13.53.rbz"
+    },
+    {
+        "version":  "1.13.52",
+        "date":  "2026-08-14",
+        "notes":  "Wall Linear Metre: a base dip under a metre across is a recess, lift it",
+        "git":  "54b1785",
+        "file":  "archive/estim8_poc_tools_extension_1.13.52.rbz"
+    },
+    {
         "version":  "1.13.51",
         "date":  "2026-08-14",
         "notes":  "Rake span walks the line until masonry breaks (500mm gap) instead of stopping at the last top",
@@ -544,131 +698,5 @@
         "notes":  "Wall Linear Metre: top-of-wall test uses cell majority so tee/corner blocks are not dropped",
         "git":  "8165589",
         "file":  "archive/estim8_poc_tools_extension_1.12.74.rbz"
-    },
-    {
-        "version":  "1.12.73",
-        "date":  "2026-08-13",
-        "notes":  "Wall Linear Metre: measure top-of-wall blocks per height; fold sub-5% steps into nearest height",
-        "git":  "74cfb39",
-        "file":  "archive/estim8_poc_tools_extension_1.12.73.rbz"
-    },
-    {
-        "version":  "1.12.72",
-        "date":  "2026-08-13",
-        "notes":  "Wall Linear Metre: split each run by height profile (2400+3200 no longer collapse to tallest)",
-        "git":  "03cc1e7",
-        "file":  "archive/estim8_poc_tools_extension_1.12.72.rbz"
-    },
-    {
-        "version":  "1.12.71",
-        "date":  "2026-08-13",
-        "notes":  "Bump Estim8ToolSketchup: export report PERF probes (v1.12.61)",
-        "git":  "03cc1e7",
-        "file":  "archive/estim8_poc_tools_extension_1.12.71.rbz"
-    },
-    {
-        "version":  "1.12.70",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "01be404",
-        "file":  "archive/estim8_poc_tools_extension_1.12.70.rbz"
-    },
-    {
-        "version":  "1.12.69",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "01be404",
-        "file":  "archive/estim8_poc_tools_extension_1.12.69.rbz"
-    },
-    {
-        "version":  "1.12.68",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "01be404",
-        "file":  "archive/estim8_poc_tools_extension_1.12.68.rbz"
-    },
-    {
-        "version":  "1.12.67",
-        "date":  "2026-08-13",
-        "notes":  "Regenerate overlays current capping tile toggle",
-        "git":  "01be404",
-        "file":  "archive/estim8_poc_tools_extension_1.12.67.rbz"
-    },
-    {
-        "version":  "1.12.66",
-        "date":  "2026-08-13",
-        "notes":  "Capping tile debug logging",
-        "git":  "01be404",
-        "file":  "archive/estim8_poc_tools_extension_1.12.66.rbz"
-    },
-    {
-        "version":  "1.12.65",
-        "date":  "2026-08-13",
-        "notes":  "Capping tile dropdown exempt from wall series filter",
-        "git":  "2aec84c",
-        "file":  "archive/estim8_poc_tools_extension_1.12.65.rbz"
-    },
-    {
-        "version":  "1.12.64",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "2e6bcd1",
-        "file":  "archive/estim8_poc_tools_extension_1.12.64.rbz"
-    },
-    {
-        "version":  "1.12.63",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "2e6bcd1",
-        "file":  "archive/estim8_poc_tools_extension_1.12.63.rbz"
-    },
-    {
-        "version":  "1.12.62",
-        "date":  "2026-08-13",
-        "notes":  null,
-        "git":  "2e6bcd1",
-        "file":  "archive/estim8_poc_tools_extension_1.12.62.rbz"
-    },
-    {
-        "version":  "1.12.61",
-        "date":  "2026-08-13",
-        "notes":  "Export report PERF probes: Ruby phase timers + PowerShell/Excel TIMES= marks (ESTIM8_PERF)",
-        "git":  "2e6bcd1",
-        "file":  "archive/estim8_poc_tools_extension_1.12.61.rbz"
-    },
-    {
-        "version":  "1.12.60",
-        "date":  "2026-08-13",
-        "notes":  "Bump Estim8ToolSketchup: shared-pier bond alternation + curve-jog cleanout (v1.12.54-59)",
-        "git":  "2e6bcd1",
-        "file":  "archive/estim8_poc_tools_extension_1.12.60.rbz"
-    },
-    {
-        "version":  "1.12.59",
-        "date":  "2026-08-13",
-        "notes":  "Shared pier: split single full into 200+200 on odd rows only when the row has no other piece; keep leftovers \u003e=50mm",
-        "git":  "14fb49e",
-        "file":  "archive/estim8_poc_tools_extension_1.12.59.rbz"
-    },
-    {
-        "version":  "1.12.58",
-        "date":  "2026-08-13",
-        "notes":  "Revert shared-pier greedy to original alternating pattern (user-confirmed correct); keep PIER debug logs",
-        "git":  "14fb49e",
-        "file":  "archive/estim8_poc_tools_extension_1.12.58.rbz"
-    },
-    {
-        "version":  "1.12.57",
-        "date":  "2026-08-13",
-        "notes":  "Revert shared-pier changes: original greedy pattern was correct (keep debug logs)",
-        "git":  "14fb49e",
-        "file":  "archive/estim8_poc_tools_extension_1.12.57.rbz"
-    },
-    {
-        "version":  "1.12.56",
-        "date":  "2026-08-13",
-        "notes":  "Shared pier: keep leftover \u003e= 100mm as a real piece (void beside W14); only joint-scale slivers dropped",
-        "git":  "14fb49e",
-        "file":  "archive/estim8_poc_tools_extension_1.12.56.rbz"
     }
 ]
