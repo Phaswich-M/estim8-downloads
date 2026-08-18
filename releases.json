@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.32",
+        "date":  "2026-08-18",
+        "notes":  "Pier module alignment at the side_pieces_map layer so pieces and blockers agree",
+        "git":  "6a3c3a5",
+        "file":  "archive/estim8_poc_tools_extension_1.14.32.rbz"
+    },
+    {
         "version":  "1.14.31",
         "date":  "2026-08-18",
         "notes":  "Revert pier module alignment: adjusting jamb pieces without adjusting blockers overlapped field H blocks",
@@ -691,12 +698,5 @@
         "notes":  "Rake Wall note moves to col D",
         "git":  "b284673",
         "file":  "archive/estim8_poc_tools_extension_1.13.33.rbz"
-    },
-    {
-        "version":  "1.13.32",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: adopt stray blocks within 1m of a wall run footprint",
-        "git":  "b284673",
-        "file":  "archive/estim8_poc_tools_extension_1.13.32.rbz"
     }
 ]
