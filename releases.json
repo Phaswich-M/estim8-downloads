@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.8",
+        "date":  "2026-08-18",
+        "notes":  "wip",
+        "git":  "ba66583",
+        "file":  "archive/estim8_poc_tools_extension_1.14.8.rbz"
+    },
+    {
         "version":  "1.14.7",
         "date":  "2026-08-18",
         "notes":  " ",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: keep colour rail on hover, bigger arrow after series title",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.9.rbz"
-    },
-    {
-        "version":  "1.13.8",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: series = one panel card, drop Collapse all button",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.8.rbz"
     }
 ]
