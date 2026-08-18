@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.31",
+        "date":  "2026-08-18",
+        "notes":  "Revert pier module alignment: adjusting jamb pieces without adjusting blockers overlapped field H blocks",
+        "git":  "6a3c3a5",
+        "file":  "archive/estim8_poc_tools_extension_1.14.31.rbz"
+    },
+    {
         "version":  "1.14.30",
         "date":  "2026-08-18",
         "notes":  "Pier module alignment: nudge one jamb a standard step so the field lands on whole 400s",
@@ -691,12 +698,5 @@
         "notes":  "Wall Linear Metre: adopt stray blocks within 1m of a wall run footprint",
         "git":  "b284673",
         "file":  "archive/estim8_poc_tools_extension_1.13.32.rbz"
-    },
-    {
-        "version":  "1.13.31",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: ignore catalogue display rows (single course, far from any wall)",
-        "git":  "b284673",
-        "file":  "archive/estim8_poc_tools_extension_1.13.31.rbz"
     }
 ]
