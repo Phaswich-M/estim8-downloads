@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.12",
+        "date":  "2026-08-18",
+        "notes":  "wip preview cache",
+        "git":  "ba66583",
+        "file":  "archive/estim8_poc_tools_extension_1.14.12.rbz"
+    },
+    {
         "version":  "1.14.11",
         "date":  "2026-08-18",
         "notes":  "wip preview cull",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: SVG trash icon instead of emoji",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.13.rbz"
-    },
-    {
-        "version":  "1.13.12",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: lock flip checkboxes in view mode",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.12.rbz"
     }
 ]
