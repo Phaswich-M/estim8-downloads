@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.16",
+        "date":  "2026-08-18",
+        "notes":  "",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.16.rbz"
+    },
+    {
         "version":  "1.14.15",
         "date":  "2026-08-18",
         "notes":  "Bond beam wins top band: opening-top lintel never intrudes into reserved top bond-beam course",
@@ -691,12 +698,5 @@
         "notes":  "Duplicate no longer overwrites its source BlockMaster record (code mismatch -\u003e custom template)",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.17.rbz"
-    },
-    {
-        "version":  "1.13.16",
-        "date":  "2026-08-14",
-        "notes":  "Block templates: drop duplicate-name validation, code is the only identity",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.16.rbz"
     }
 ]
