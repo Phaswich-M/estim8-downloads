@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.10",
+        "date":  "2026-08-18",
+        "notes":  "wip preview depth",
+        "git":  "ba66583",
+        "file":  "archive/estim8_poc_tools_extension_1.14.10.rbz"
+    },
+    {
         "version":  "1.14.9",
         "date":  "2026-08-18",
         "notes":  "wip preview",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: view = locked editor, bigger icon buttons",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.11.rbz"
-    },
-    {
-        "version":  "1.13.10",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: icon actions + read-only block detail modal on card click",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.10.rbz"
     }
 ]
