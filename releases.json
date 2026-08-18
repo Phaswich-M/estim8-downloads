@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.24",
+        "date":  "2026-08-18",
+        "notes":  "Openings anchor to world coords: regenerate no longer replays frame-relative u against a rebuilt frame origin (drift fix)",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.24.rbz"
+    },
+    {
         "version":  "1.14.23",
         "date":  "2026-08-18",
         "notes":  "Shared pier: offset palindrome rows (400 -\u003e 200+200, 800 -\u003e 200+400+200) so jamb blocks never stack the same joint",
@@ -691,12 +698,5 @@
         "notes":  "Bulk Import Review: fixed-height column so Cancel/Import stay visible",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.25.rbz"
-    },
-    {
-        "version":  "1.13.24",
-        "date":  "2026-08-14",
-        "notes":  "Responsive passes for POC panel, Wall Setup, Import Review, Manage catalogue, report dialogs",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.24.rbz"
     }
 ]
