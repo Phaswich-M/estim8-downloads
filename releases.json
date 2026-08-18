@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.22",
+        "date":  "2026-08-18",
+        "notes":  "Revert v1.14.20 fall-through: always suppress shared-pier jambs so they never bleed into the next opening",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.22.rbz"
+    },
+    {
         "version":  "1.14.21",
         "date":  "2026-08-18",
         "notes":  "Openings never move: drop clamp/shrink in opening_rect_for_match, warn instead",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: responsive header, grid and edit modal at narrow widths",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.23.rbz"
-    },
-    {
-        "version":  "1.13.22",
-        "date":  "2026-08-14",
-        "notes":  "Card actions: all-SVG icons, centered in their buttons",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.22.rbz"
     }
 ]
