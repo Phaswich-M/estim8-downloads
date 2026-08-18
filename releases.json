@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.7",
+        "date":  "2026-08-18",
+        "notes":  " ",
+        "git":  "3cb916a",
+        "file":  "archive/estim8_poc_tools_extension_1.14.7.rbz"
+    },
+    {
         "version":  "1.14.6",
         "date":  "2026-08-18",
         "notes":  "Bump Estim8ToolSketchup: export perf + report ruling (v1.14.5)",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: series = one panel card, drop Collapse all button",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.8.rbz"
-    },
-    {
-        "version":  "1.13.7",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: series filter dropdown + collapsible series accordions",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.7.rbz"
     }
 ]
