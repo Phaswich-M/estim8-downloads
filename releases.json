@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.34",
+        "date":  "2026-08-18",
+        "notes":  "Revert jamb-face alternation, back to v1.14.32 pier module alignment",
+        "git":  "6a3c3a5",
+        "file":  "archive/estim8_poc_tools_extension_1.14.34.rbz"
+    },
+    {
         "version":  "1.14.33",
         "date":  "2026-08-18",
         "notes":  "Pier module alignment alternates the adjusted jamb face per course so no jamb block sits beside its twin",
@@ -691,12 +698,5 @@
         "notes":  "Rake length back to summed step widths (FGN len is a bbox guess)",
         "git":  "b284673",
         "file":  "archive/estim8_poc_tools_extension_1.13.35.rbz"
-    },
-    {
-        "version":  "1.13.34",
-        "date":  "2026-08-14",
-        "notes":  "Rake run length = developed run length, not summed step widths",
-        "git":  "b284673",
-        "file":  "archive/estim8_poc_tools_extension_1.13.34.rbz"
     }
 ]
