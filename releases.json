@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.30",
+        "date":  "2026-08-18",
+        "notes":  "Pier module alignment: nudge one jamb a standard step so the field lands on whole 400s",
+        "git":  "6a3c3a5",
+        "file":  "archive/estim8_poc_tools_extension_1.14.30.rbz"
+    },
+    {
         "version":  "1.14.29",
         "date":  "2026-08-18",
         "notes":  "Pier: whole H blocks that overlap instead of a cut piece (overlap H, don\u0027t cut)",
@@ -691,12 +698,5 @@
         "notes":  "Wall Linear Metre: ignore catalogue display rows (single course, far from any wall)",
         "git":  "b284673",
         "file":  "archive/estim8_poc_tools_extension_1.13.31.rbz"
-    },
-    {
-        "version":  "1.13.30",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: rake runs report at max height + \u0027Rake Wall\u0027 note",
-        "git":  "b284673",
-        "file":  "archive/estim8_poc_tools_extension_1.13.30.rbz"
     }
 ]
