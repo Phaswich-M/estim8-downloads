@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.26",
+        "date":  "2026-08-18",
+        "notes":  "Zone fill: fewest cut pieces wins before grid-alignment bonus",
+        "git":  "6a3c3a5",
+        "file":  "archive/estim8_poc_tools_extension_1.14.26.rbz"
+    },
+    {
         "version":  "1.14.25",
         "date":  "2026-08-18",
         "notes":  "Resolve ZZ Superseded component names back to the real block when one exists",
@@ -691,12 +698,5 @@
         "notes":  "Curve blend: straight-zone blocks overhanging a curve zone get averaged bend rotation",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.27.rbz"
-    },
-    {
-        "version":  "1.13.26",
-        "date":  "2026-08-14",
-        "notes":  "Bulk Import Review: border-box body so the action bar is never clipped",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.26.rbz"
     }
 ]
