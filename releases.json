@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.19",
+        "date":  "2026-08-18",
+        "notes":  "Shared pier: cap overshoot 50mm so near-touching openings drop the mullion (no stray 200)",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.19.rbz"
+    },
+    {
         "version":  "1.14.18",
         "date":  "2026-08-18",
         "notes":  "Shared pier: exhaustive standard-block fit, prefer cover over void; 450/490/500 gap -\u003e 300+200",
@@ -691,12 +698,5 @@
         "notes":  "Block Master Template: block ctrl+wheel / ctrl +- zoom",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.20.rbz"
-    },
-    {
-        "version":  "1.13.19",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: sort cards by code (natural order) within each series",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.19.rbz"
     }
 ]
