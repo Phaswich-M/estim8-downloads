@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.17",
+        "date":  "2026-08-18",
+        "notes":  "Shared pier: avoid cut sliver, back off full-\u003etq so 500 gap lays 300+200 not 400+100",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.17.rbz"
+    },
+    {
         "version":  "1.14.16",
         "date":  "2026-08-18",
         "notes":  "",
@@ -691,12 +698,5 @@
         "notes":  "Duplicate creates a NEW BlockMaster record cloned from the source (own estim8_id)",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.18.rbz"
-    },
-    {
-        "version":  "1.13.17",
-        "date":  "2026-08-14",
-        "notes":  "Duplicate no longer overwrites its source BlockMaster record (code mismatch -\u003e custom template)",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.17.rbz"
     }
 ]
