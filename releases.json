@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.20",
+        "date":  "2026-08-18",
+        "notes":  "Shared pier: don\u0027t suppress own jamb solvers when fill is empty on a real gap (void guard)",
+        "git":  "61a0667",
+        "file":  "archive/estim8_poc_tools_extension_1.14.20.rbz"
+    },
+    {
         "version":  "1.14.19",
         "date":  "2026-08-18",
         "notes":  "Shared pier: cap overshoot 50mm so near-touching openings drop the mullion (no stray 200)",
@@ -691,12 +698,5 @@
         "notes":  "Zoom lock (ctrl+wheel / ctrl +-0) on every Estim8 dialog via shared no_zoom_js",
         "git":  "66db085",
         "file":  "archive/estim8_poc_tools_extension_1.13.21.rbz"
-    },
-    {
-        "version":  "1.13.20",
-        "date":  "2026-08-14",
-        "notes":  "Block Master Template: block ctrl+wheel / ctrl +- zoom",
-        "git":  "66db085",
-        "file":  "archive/estim8_poc_tools_extension_1.13.20.rbz"
     }
 ]
