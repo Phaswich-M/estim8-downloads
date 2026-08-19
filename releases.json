@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.45",
+        "date":  "2026-08-19",
+        "notes":  "Pier field relay: detect the pier from the jamb BLOCKER edges (jambs are not in the grid row)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.45.rbz"
+    },
+    {
         "version":  "1.14.44",
         "date":  "2026-08-19",
         "notes":  "Pier field: runs fenced by jambs both sides lay whole blocks with overlap instead of cuts",
@@ -691,12 +698,5 @@
         "notes":  "Wall Linear Metre: fold the sliver row at the floor total, not per leg",
         "git":  "2142f12",
         "file":  "archive/estim8_poc_tools_extension_1.13.46.rbz"
-    },
-    {
-        "version":  "1.13.45",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: fold a sliver row one course into the long row above it",
-        "git":  "3170671",
-        "file":  "archive/estim8_poc_tools_extension_1.13.45.rbz"
     }
 ]
