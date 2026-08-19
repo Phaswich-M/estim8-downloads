@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.57",
+        "date":  "2026-08-19",
+        "notes":  "Jamb alternation: exact-fit single 300 repeating at opening edge gets a full block at the jamb (JAMB_ALT, kill switch \\)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.57.rbz"
+    },
+    {
         "version":  "1.14.56",
         "date":  "2026-08-19",
         "notes":  "Revert v1.14.55 jamb exact-fit narrowing (overlapping blocks across the wall)",
@@ -691,12 +698,5 @@
         "notes":  "Column walk stays inside its own run",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.58.rbz"
-    },
-    {
-        "version":  "1.13.57",
-        "date":  "2026-08-17",
-        "notes":  "Column walk per cell, base = level most of the footprint reaches",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.57.rbz"
     }
 ]
