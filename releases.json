@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.58",
+        "date":  "2026-08-19",
+        "notes":  "Disable JAMB_ALT: widened jamb overlapped H blocks (zone width not widened)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.58.rbz"
+    },
+    {
         "version":  "1.14.57",
         "date":  "2026-08-19",
         "notes":  "Jamb alternation: exact-fit single 300 repeating at opening edge gets a full block at the jamb (JAMB_ALT, kill switch \\)",
@@ -691,12 +698,5 @@
         "notes":  "Fix NameError in stack walk (modifier while)",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.59.rbz"
-    },
-    {
-        "version":  "1.13.58",
-        "date":  "2026-08-17",
-        "notes":  "Column walk stays inside its own run",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.58.rbz"
     }
 ]
