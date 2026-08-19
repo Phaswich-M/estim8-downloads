@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.40",
+        "date":  "2026-08-19",
+        "notes":  "Pier jamb: rows may carry different field block counts; pick half-step pair with least jamb",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.40.rbz"
+    },
+    {
         "version":  "1.14.39",
         "date":  "2026-08-19",
         "notes":  "Pier jamb: both jambs must step by a half block between rows (no 300 over 400)",
@@ -691,12 +698,5 @@
         "notes":  "Wall Linear Metre: measure height profile per LEG so rake only claims its own wall",
         "git":  "0a74048",
         "file":  "archive/estim8_poc_tools_extension_1.13.41.rbz"
-    },
-    {
-        "version":  "1.13.40",
-        "date":  "2026-08-14",
-        "notes":  "Rake counts the whole run at max height (per-wall, not per-column)",
-        "git":  "0a74048",
-        "file":  "archive/estim8_poc_tools_extension_1.13.40.rbz"
     }
 ]
