@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.62",
+        "date":  "2026-08-19",
+        "notes":  "Field block that kisses a jamb edge no longer vetoed (1mm kiss_shrink) - fixes 400mm hole under sill",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.62.rbz"
+    },
+    {
         "version":  "1.14.61",
         "date":  "2026-08-19",
         "notes":  "Temp FieldDraw dump behind ESTIM8_ROWDUMP_ALL to find the missing jamb-adjacent field block",
@@ -691,12 +698,5 @@
         "notes":  "Drop height cap and per-run base map experiments",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.63.rbz"
-    },
-    {
-        "version":  "1.13.62",
-        "date":  "2026-08-17",
-        "notes":  "Cap run height at the height it was drawn at",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.62.rbz"
     }
 ]
