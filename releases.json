@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.39",
+        "date":  "2026-08-19",
+        "notes":  "Pier jamb: both jambs must step by a half block between rows (no 300 over 400)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.39.rbz"
+    },
+    {
         "version":  "1.14.38",
         "date":  "2026-08-19",
         "notes":  "Revert pier jamb rebuild (1.14.35-37) back to 1.14.34 behaviour",
@@ -691,12 +698,5 @@
         "notes":  "Rake counts the whole run at max height (per-wall, not per-column)",
         "git":  "0a74048",
         "file":  "archive/estim8_poc_tools_extension_1.13.40.rbz"
-    },
-    {
-        "version":  "1.13.39",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: base decided by the block\u0027s core cells, not every cell it touches",
-        "git":  "0a74048",
-        "file":  "archive/estim8_poc_tools_extension_1.13.39.rbz"
     }
 ]
