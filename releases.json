@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.60",
+        "date":  "2026-08-19",
+        "notes":  "Jamb-cut field slivers get the near_reservation scale trust (grey mock box to real H block)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.60.rbz"
+    },
+    {
         "version":  "1.14.59",
         "date":  "2026-08-19",
         "notes":  "Shared pier: reserve whole pier span as zone blocker so field H blocks stop overlapping the jamb column (W13 D17)",
@@ -691,12 +698,5 @@
         "notes":  "Base map per run, not per floor",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.61.rbz"
-    },
-    {
-        "version":  "1.13.60",
-        "date":  "2026-08-17",
-        "notes":  "Revert stack-walk base, keep sliver fold cap",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.60.rbz"
     }
 ]
