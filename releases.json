@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.53",
+        "date":  "2026-08-19",
+        "notes":  "Pier relay block count uses ceil so the run is always covered (589 pier left a 189 void)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.53.rbz"
+    },
+    {
         "version":  "1.14.52",
         "date":  "2026-08-19",
         "notes":  "Pin pier relay last block to run end (float overshoot was vetoing the block against the opening); drop debug",
@@ -691,12 +698,5 @@
         "notes":  "Wall height ignores masonry below z=0",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.54.rbz"
-    },
-    {
-        "version":  "1.13.53",
-        "date":  "2026-08-14",
-        "notes":  "Revert the patch-span base lift, it collapsed the real 3000 and 3600 rows too",
-        "git":  "a704b50",
-        "file":  "archive/estim8_poc_tools_extension_1.13.53.rbz"
     }
 ]
