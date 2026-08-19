@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.54",
+        "date":  "2026-08-19",
+        "notes":  "Scope pier-relay ceil to the cleanout row; full-height rows keep the old count",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.54.rbz"
+    },
+    {
         "version":  "1.14.53",
         "date":  "2026-08-19",
         "notes":  "Pier relay block count uses ceil so the run is always covered (589 pier left a 189 void)",
@@ -691,12 +698,5 @@
         "notes":  "Sliver fold only eats rows under 1200mm",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.55.rbz"
-    },
-    {
-        "version":  "1.13.54",
-        "date":  "2026-08-17",
-        "notes":  "Wall height ignores masonry below z=0",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.54.rbz"
     }
 ]
