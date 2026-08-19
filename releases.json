@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.51",
+        "date":  "2026-08-19",
+        "notes":  "PierDraw debug: trace row-0 pier pieces through the render veto",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.51.rbz"
+    },
+    {
         "version":  "1.14.50",
         "date":  "2026-08-19",
         "notes":  "Re-add PierRelay debug (cleanout row fence diagnosis)",
@@ -691,12 +698,5 @@
         "notes":  "Wall Linear Metre: a base dip under a metre across is a recess, lift it",
         "git":  "54b1785",
         "file":  "archive/estim8_poc_tools_extension_1.13.52.rbz"
-    },
-    {
-        "version":  "1.13.51",
-        "date":  "2026-08-14",
-        "notes":  "Rake span walks the line until masonry breaks (500mm gap) instead of stopping at the last top",
-        "git":  "54b1785",
-        "file":  "archive/estim8_poc_tools_extension_1.13.51.rbz"
     }
 ]
