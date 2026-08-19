@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.56",
+        "date":  "2026-08-19",
+        "notes":  "Revert v1.14.55 jamb exact-fit narrowing (overlapping blocks across the wall)",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.56.rbz"
+    },
+    {
         "version":  "1.14.55",
         "date":  "2026-08-19",
         "notes":  "Jamb: exact-fit only exempts a FULL block from the same-as-prev guard (300 was stacking on 300 at the opening edge)",
@@ -691,12 +698,5 @@
         "notes":  "Column walk per cell, base = level most of the footprint reaches",
         "git":  "334ba27",
         "file":  "archive/estim8_poc_tools_extension_1.13.57.rbz"
-    },
-    {
-        "version":  "1.13.56",
-        "date":  "2026-08-17",
-        "notes":  "Wall height walks the real column under each block",
-        "git":  "334ba27",
-        "file":  "archive/estim8_poc_tools_extension_1.13.56.rbz"
     }
 ]
