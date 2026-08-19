@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.49",
+        "date":  "2026-08-19",
+        "notes":  "Cleanout row pier: fence relay on opening edges so 1140 pier lays 3x400 instead of a 140 void",
+        "git":  "5ecd9df",
+        "file":  "archive/estim8_poc_tools_extension_1.14.49.rbz"
+    },
+    {
         "version":  "1.14.48",
         "date":  "2026-08-19",
         "notes":  "Drop PierRelay debug dump; pier layout confirmed good",
@@ -691,12 +698,5 @@
         "notes":  "Rake span measured in the leg frame so the rotated corner block counts",
         "git":  "80b47b5",
         "file":  "archive/estim8_poc_tools_extension_1.13.50.rbz"
-    },
-    {
-        "version":  "1.13.49",
-        "date":  "2026-08-14",
-        "notes":  "Wall Linear Metre: a sliver row folds into a dominant row within two courses",
-        "git":  "5c51f10",
-        "file":  "archive/estim8_poc_tools_extension_1.13.49.rbz"
     }
 ]
