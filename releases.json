@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.69",
+        "date":  "2026-09-03",
+        "notes":  "Allow three_quarter_lintel (20.25) in above-opening role query so the 300mm band fires",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.69.rbz"
+    },
+    {
         "version":  "1.14.68",
         "date":  "2026-09-03",
         "notes":  "Cleanout/half-height rows keep the running-bond datum at a left corner (base two courses stacked)",
@@ -691,12 +698,5 @@
         "notes":  "Opening-head blocks borrow the base of the NEAREST block, not the run mode",
         "git":  "0c04480",
         "file":  "archive/estim8_poc_tools_extension_1.13.70.rbz"
-    },
-    {
-        "version":  "1.13.69",
-        "date":  "2026-08-17",
-        "notes":  "Revert column-walk base again (breaks both models)",
-        "git":  "56c7dba",
-        "file":  "archive/estim8_poc_tools_extension_1.13.69.rbz"
     }
 ]
