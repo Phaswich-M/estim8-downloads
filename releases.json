@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.74",
+        "date":  "2026-09-03",
+        "notes":  "Relay lays whole blocks on the row grid and concentrates the lap in one block at the reveal",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.74.rbz"
+    },
+    {
         "version":  "1.14.73",
         "date":  "2026-09-03",
         "notes":  "Half-height row keeps its natural grid: no fence on the row = no even-lap relay",
@@ -691,12 +698,5 @@
         "notes":  "Read column B in one COM call for the section scans",
         "git":  "6229561",
         "file":  "archive/estim8_poc_tools_extension_1.13.75.rbz"
-    },
-    {
-        "version":  "1.13.74",
-        "date":  "2026-08-17",
-        "notes":  "PERF sub-marks inside fill_walls",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.74.rbz"
     }
 ]
