@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.72",
+        "date":  "2026-09-03",
+        "notes":  "Jamb block landing on the top bond-beam course renders as bond beam (300mm band case)",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.72.rbz"
+    },
+    {
         "version":  "1.14.71",
         "date":  "2026-09-03",
         "notes":  "Cleanout/half-height rows take grid phase from the corner tooth, not row parity",
@@ -691,12 +698,5 @@
         "notes":  "Bump Estim8ToolSketchup: wall linear junk-row fixes (v1.13.72)",
         "git":  "6229561",
         "file":  "archive/estim8_poc_tools_extension_1.13.73.rbz"
-    },
-    {
-        "version":  "1.13.72",
-        "date":  "2026-08-17",
-        "notes":  "Fold a one-course minority into its own leg\u0027s height",
-        "git":  "3bd7d19",
-        "file":  "archive/estim8_poc_tools_extension_1.13.72.rbz"
     }
 ]
