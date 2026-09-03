@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.68",
+        "date":  "2026-09-03",
+        "notes":  "Cleanout/half-height rows keep the running-bond datum at a left corner (base two courses stacked)",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.68.rbz"
+    },
+    {
         "version":  "1.14.67",
         "date":  "2026-09-03",
         "notes":  "Relay diagnostic: dump run/branch/fence under ESTIM8_ROWDUMP_ALL",
@@ -691,12 +698,5 @@
         "notes":  "Revert column-walk base again (breaks both models)",
         "git":  "56c7dba",
         "file":  "archive/estim8_poc_tools_extension_1.13.69.rbz"
-    },
-    {
-        "version":  "1.13.68",
-        "date":  "2026-08-17",
-        "notes":  "Base = level most of the block\u0027s footprint stands on (column walk)",
-        "git":  "56c7dba",
-        "file":  "archive/estim8_poc_tools_extension_1.13.68.rbz"
     }
 ]
