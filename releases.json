@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.67",
+        "date":  "2026-09-03",
+        "notes":  "Relay diagnostic: dump run/branch/fence under ESTIM8_ROWDUMP_ALL",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.67.rbz"
+    },
+    {
         "version":  "1.14.66",
         "date":  "2026-09-03",
         "notes":  "RowDump: honour ESTIM8_ROWDUMP_ALL on CLEAN/ELSE rows (diagnostic only)",
@@ -691,12 +698,5 @@
         "notes":  "Base = level most of the block\u0027s footprint stands on (column walk)",
         "git":  "56c7dba",
         "file":  "archive/estim8_poc_tools_extension_1.13.68.rbz"
-    },
-    {
-        "version":  "1.13.67",
-        "date":  "2026-08-17",
-        "notes":  "Drop runs with no exposed top instead of guessing from the bbox",
-        "git":  "14d3410",
-        "file":  "archive/estim8_poc_tools_extension_1.13.67.rbz"
     }
 ]
