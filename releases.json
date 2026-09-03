@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.76",
+        "date":  "2026-09-03",
+        "notes":  "Bump Estim8ToolSketchup: Corner Pattern tool + ship corner_pick.rb in the rbz",
+        "git":  "b31521b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.76.rbz"
+    },
+    {
         "version":  "1.14.75",
         "date":  "2026-09-03",
         "notes":  "Cleanout row cuts the block at the opening instead of overlapping a full one",
@@ -691,12 +698,5 @@
         "notes":  "Cap sheet scans at 3000 rows (bloated UsedRange)",
         "git":  "6229561",
         "file":  "archive/estim8_poc_tools_extension_1.13.77.rbz"
-    },
-    {
-        "version":  "1.13.76",
-        "date":  "2026-08-17",
-        "notes":  "Fix var clash: PowerShell is case-insensitive, wB clobbered wb",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.76.rbz"
     }
 ]
