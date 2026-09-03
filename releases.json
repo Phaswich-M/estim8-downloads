@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.66",
+        "date":  "2026-09-03",
+        "notes":  "RowDump: honour ESTIM8_ROWDUMP_ALL on CLEAN/ELSE rows (diagnostic only)",
+        "git":  "c680d4f",
+        "file":  "archive/estim8_poc_tools_extension_1.14.66.rbz"
+    },
+    {
         "version":  "1.14.65",
         "date":  "2026-09-03",
         "notes":  "300mm top band above opening = one 3/4 High Lintel course, no bond beam over opening",
@@ -691,12 +698,5 @@
         "notes":  "Drop runs with no exposed top instead of guessing from the bbox",
         "git":  "14d3410",
         "file":  "archive/estim8_poc_tools_extension_1.13.67.rbz"
-    },
-    {
-        "version":  "1.13.66",
-        "date":  "2026-08-17",
-        "notes":  "PERF dumps each leg profile",
-        "git":  "14d3410",
-        "file":  "archive/estim8_poc_tools_extension_1.13.66.rbz"
     }
 ]
