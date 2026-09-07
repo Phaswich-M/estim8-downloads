@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.14.77",
+        "date":  "2026-09-07",
+        "notes":  "Bump Estim8ToolSketchup: corner pick isolation + curve leg meets the quoin",
+        "git":  "3e9c82e",
+        "file":  "archive/estim8_poc_tools_extension_1.14.77.rbz"
+    },
+    {
         "version":  "1.14.76",
         "date":  "2026-09-03",
         "notes":  "Bump Estim8ToolSketchup: Corner Pattern tool + ship corner_pick.rb in the rbz",
@@ -691,12 +698,5 @@
         "notes":  "Finer PERF marks around the wall sheet scan",
         "git":  "6229561",
         "file":  "archive/estim8_poc_tools_extension_1.13.78.rbz"
-    },
-    {
-        "version":  "1.13.77",
-        "date":  "2026-08-17",
-        "notes":  "Cap sheet scans at 3000 rows (bloated UsedRange)",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.77.rbz"
     }
 ]
