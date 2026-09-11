@@ -1,5 +1,82 @@
 [
     {
+        "version":  "1.14.88",
+        "date":  "2026-09-11",
+        "notes":  "Bump Estim8ToolSketchup: user block pick always wins + deep lintel band (v1.14.87)",
+        "git":  "6cf4199",
+        "file":  "archive/estim8_poc_tools_extension_1.14.88.rbz"
+    },
+    {
+        "version":  "1.14.87",
+        "date":  "2026-09-11",
+        "notes":  "Deep lintel = ~400 band to wall top (Lintel strategy Auto/Deep), standing full height; bar under bond beam = Lintel pick; revert pick-sized slots",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.87.rbz"
+    },
+    {
+        "version":  "1.14.86",
+        "date":  "2026-09-11",
+        "notes":  "Opening-top bar uses picked block real height; taller pick hangs down over opening",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.86.rbz"
+    },
+    {
+        "version":  "1.14.85",
+        "date":  "2026-09-11",
+        "notes":  "Deep lintel slot uses Deep lintel pick (no remap); flat bar split to picked block width",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.85.rbz"
+    },
+    {
+        "version":  "1.14.84",
+        "date":  "2026-09-11",
+        "notes":  "Opening-top flat bar = Lintel pick (deep_lintel -\u003e lintel, no hardcoded 20.12); every position resolves user pick",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.84.rbz"
+    },
+    {
+        "version":  "1.14.83",
+        "date":  "2026-09-11",
+        "notes":  "Lintel pieces with layout-named component keep it (deep lintel span = 20.12, not standing 20.18)",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.83.rbz"
+    },
+    {
+        "version":  "1.14.82",
+        "date":  "2026-09-11",
+        "notes":  "Picked block: healthy own def -\u003e legacy resolver (fix rotated H); Tag lookup only when name shuffled, axes from placed def",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.82.rbz"
+    },
+    {
+        "version":  "1.14.81",
+        "date":  "2026-09-11",
+        "notes":  "Picked block: tag index skips generated blocks by DICT kind (any parent); tag miss falls back to block\u0027s own name, never role default",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.81.rbz"
+    },
+    {
+        "version":  "1.14.80",
+        "date":  "2026-09-11",
+        "notes":  "Build: ship corner_pick.rb, drop deleted block_ownership.rb; user block pick always wins",
+        "git":  "2cd013b",
+        "file":  "archive/estim8_poc_tools_extension_1.14.80.rbz"
+    },
+    {
+        "version":  "1.14.79",
+        "date":  "2026-09-11",
+        "notes":  "User block pick always wins: resolve def by library Tag code, no silent role-default swap, warn on missing",
+        "git":  "56612f9",
+        "file":  "archive/estim8_poc_tools_extension_1.14.79.rbz"
+    },
+    {
+        "version":  "1.14.78",
+        "date":  "2026-09-11",
+        "notes":  "20.20V bond beam: resolve def by Tag when #N name lost; promote skips other-code #N",
+        "git":  "56612f9",
+        "file":  "archive/estim8_poc_tools_extension_1.14.78.rbz"
+    },
+    {
         "version":  "1.14.77",
         "date":  "2026-09-07",
         "notes":  "Bump Estim8ToolSketchup: corner pick isolation + curve leg meets the quoin",
@@ -621,82 +698,5 @@
         "notes":  "Clone only as wide as the report really is (LastCol)",
         "git":  "bf6c647",
         "file":  "archive/estim8_poc_tools_extension_1.13.89.rbz"
-    },
-    {
-        "version":  "1.13.88",
-        "date":  "2026-08-18",
-        "notes":  "Quantities series clone by cell range too (also stops the BI formula spreading)",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.88.rbz"
-    },
-    {
-        "version":  "1.13.87",
-        "date":  "2026-08-18",
-        "notes":  "Create series sections once on the template floor before cloning floors; COM latency probe",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.87.rbz"
-    },
-    {
-        "version":  "1.13.86",
-        "date":  "2026-08-17",
-        "notes":  "Fix stray pipe left by the CutCopyMode insert",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.86.rbz"
-    },
-    {
-        "version":  "1.13.85",
-        "date":  "2026-08-17",
-        "notes":  "Floor-level sliver fold only eats rows under 600mm",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.85.rbz"
-    },
-    {
-        "version":  "1.13.84",
-        "date":  "2026-08-17",
-        "notes":  "Clear CutCopyMode after every section clone; revert NB_BASE",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.84.rbz"
-    },
-    {
-        "version":  "1.13.83",
-        "date":  "2026-08-17",
-        "notes":  "Let a cell borrow its base from a much shorter neighbour (proud base course)",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.83.rbz"
-    },
-    {
-        "version":  "1.13.82",
-        "date":  "2026-08-17",
-        "notes":  "Purge empty formatted rows below content before cloning sections",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.82.rbz"
-    },
-    {
-        "version":  "1.13.81",
-        "date":  "2026-08-17",
-        "notes":  "Probe: time a single-cell Range.Copy",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.81.rbz"
-    },
-    {
-        "version":  "1.13.80",
-        "date":  "2026-08-17",
-        "notes":  "Range-clone series sections; per-clone PERF marks; fold only two-level legs (rake)",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.80.rbz"
-    },
-    {
-        "version":  "1.13.79",
-        "date":  "2026-08-17",
-        "notes":  "Clone sections by cell range, not whole rows",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.79.rbz"
-    },
-    {
-        "version":  "1.13.78",
-        "date":  "2026-08-17",
-        "notes":  "Finer PERF marks around the wall sheet scan",
-        "git":  "6229561",
-        "file":  "archive/estim8_poc_tools_extension_1.13.78.rbz"
     }
 ]
