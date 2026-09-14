@@ -1,5 +1,257 @@
 [
     {
+        "version":  "1.15.24",
+        "date":  "2026-09-14",
+        "notes":  "Wall-end 300 remainder: right end lays a plain H 300 instead of a lapped 400 (v1.15.23)",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.24.rbz"
+    },
+    {
+        "version":  "1.15.23",
+        "date":  "2026-09-14",
+        "notes":  "Right wall-end 300 remainder as plain H 300",
+        "git":  "5e7621c",
+        "file":  "archive/estim8_poc_tools_extension_1.15.23.rbz"
+    },
+    {
+        "version":  "1.15.22",
+        "date":  "2026-09-14",
+        "notes":  "300 wall-end jamb only at left chain end (not W11 right)",
+        "git":  "5e7621c",
+        "file":  "archive/estim8_poc_tools_extension_1.15.22.rbz"
+    },
+    {
+        "version":  "1.15.21",
+        "date":  "2026-09-14",
+        "notes":  "Cleanout row follows row-2 jamb joints beside openings",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.21.rbz"
+    },
+    {
+        "version":  "1.15.20",
+        "date":  "2026-09-14",
+        "notes":  "W06 left chain: 300 -\u003e 400 float tolerance",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.20.rbz"
+    },
+    {
+        "version":  "1.15.19",
+        "date":  "2026-09-14",
+        "notes":  "Left wall-end jamb chain one course up, 300 jamb at quoin",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.19.rbz"
+    },
+    {
+        "version":  "1.15.18",
+        "date":  "2026-09-14",
+        "notes":  "Revert to 5886b49 (drop wall-end experiments)",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.18.rbz"
+    },
+    {
+        "version":  "1.15.17",
+        "date":  "2026-09-14",
+        "notes":  "END_JAMB: shift a course when run to corner leaves 300 closer; relay lays 300 flush",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.17.rbz"
+    },
+    {
+        "version":  "1.15.16",
+        "date":  "2026-09-14",
+        "notes":  "Relay wall-end debug",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.16.rbz"
+    },
+    {
+        "version":  "1.15.15",
+        "date":  "2026-09-14",
+        "notes":  "Relay: wall-end closer + remainder merged into one 300/200 block",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.15.rbz"
+    },
+    {
+        "version":  "1.15.14",
+        "date":  "2026-09-14",
+        "notes":  "END_JAMB: no long-run swap when run to corner leaves a lap (W06 left)",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.14.rbz"
+    },
+    {
+        "version":  "1.15.13",
+        "date":  "2026-09-14",
+        "notes":  "Relay: exact 300/200 remainder at wall end instead of lapped 400",
+        "git":  "e9e5c28",
+        "file":  "archive/estim8_poc_tools_extension_1.15.13.rbz"
+    },
+    {
+        "version":  "1.15.12",
+        "date":  "2026-09-14",
+        "notes":  "Corner priority clip at real corner edge (il/ir), D04 right 300 jamb",
+        "git":  "d84d877",
+        "file":  "archive/estim8_poc_tools_extension_1.15.12.rbz"
+    },
+    {
+        "version":  "1.15.11",
+        "date":  "2026-09-14",
+        "notes":  "End jamb 400/200 swap only if run to corner quoin takes whole blocks or is 4+ blocks (D04 laps)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.11.rbz"
+    },
+    {
+        "version":  "1.15.10",
+        "date":  "2026-09-14",
+        "notes":  "End jamb corner fill also replaces a clipped 300 (role check, not width)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.10.rbz"
+    },
+    {
+        "version":  "1.15.9",
+        "date":  "2026-09-14",
+        "notes":  "End jamb corner fill also replaces a clipped 300 (role check, not width)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.9.rbz"
+    },
+    {
+        "version":  "1.15.8",
+        "date":  "2026-09-14",
+        "notes":  "End jamb into corner quoin: single block that fills the space wins (W05 right 398 -\u003e 400)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.8.rbz"
+    },
+    {
+        "version":  "1.15.7",
+        "date":  "2026-09-14",
+        "notes":  "Pier uses one joint-shift direction for both jambs (D01|W01 400 stacked)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.7.rbz"
+    },
+    {
+        "version":  "1.15.6",
+        "date":  "2026-09-14",
+        "notes":  "Relay anchored run: 398 jamb-to-corner counts as one whole block",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.6.rbz"
+    },
+    {
+        "version":  "1.15.5",
+        "date":  "2026-09-14",
+        "notes":  "Relay: run anchored to pier-extended jamb starts at the jamb edge (fills dropped sliver, one-piece runs)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.5.rbz"
+    },
+    {
+        "version":  "1.15.4",
+        "date":  "2026-09-14",
+        "notes":  "End jamb 400/200 back on short runs; relay lays a one-block run from the pier-extended jamb",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.4.rbz"
+    },
+    {
+        "version":  "1.15.3",
+        "date":  "2026-09-14",
+        "notes":  "End jamb 400/200 swap only when run to wall end \u003e= 4 blocks (W11 right keeps 300+200)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.3.rbz"
+    },
+    {
+        "version":  "1.15.2",
+        "date":  "2026-09-14",
+        "notes":  "Relay: ignore zero-width field remnant inside a jamb (400 laid over W11 left 300)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.2.rbz"
+    },
+    {
+        "version":  "1.15.1",
+        "date":  "2026-09-14",
+        "notes":  "Right-end jamb zone shifts -100 (jamb_shift_dir): W09 right single 200/400",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.1.rbz"
+    },
+    {
+        "version":  "1.15.0",
+        "date":  "2026-09-14",
+        "notes":  "Wall joint shift +100: end jamb single 200/400 (no 400 over 200); pier orientation follows",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.15.0.rbz"
+    },
+    {
+        "version":  "1.14.99",
+        "date":  "2026-09-14",
+        "notes":  "End jamb (no neighbour opening): 300/500 swapped for 400/200 at wall joint shift, run relaid from jamb",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.99.rbz"
+    },
+    {
+        "version":  "1.14.98",
+        "date":  "2026-09-14",
+        "notes":  "Shared pier: middle 400 touching no opening is RED h_block",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.98.rbz"
+    },
+    {
+        "version":  "1.14.97",
+        "date":  "2026-09-14",
+        "notes":  "Pier extension: shared column keeps only the jamb block; field relay lays the rest",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.97.rbz"
+    },
+    {
+        "version":  "1.14.96",
+        "date":  "2026-09-14",
+        "notes":  "Pier orientation by wall joint shift (jamb_shift_rank), not row parity",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.96.rbz"
+    },
+    {
+        "version":  "1.14.95",
+        "date":  "2026-09-14",
+        "notes":  "Pier jamb also on runs open to wall end; relay lays that run from the jamb, remainder at wall end",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.95.rbz"
+    },
+    {
+        "version":  "1.14.94",
+        "date":  "2026-09-14",
+        "notes":  "Pier extension: only the block touching the opening is a jamb block, rest RED h_block",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.94.rbz"
+    },
+    {
+        "version":  "1.14.93",
+        "date":  "2026-09-14",
+        "notes":  "Pier jamb continues below/above the shorter neighbour opening (extend_pier_jambs_map!)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.93.rbz"
+    },
+    {
+        "version":  "1.14.92",
+        "date":  "2026-09-14",
+        "notes":  "Revert jamb column lock (spread 300s, 804 pier regressed)",
+        "git":  "ec98ce7",
+        "file":  "archive/estim8_poc_tools_extension_1.14.92.rbz"
+    },
+    {
+        "version":  "1.14.91",
+        "date":  "2026-09-14",
+        "notes":  "Jamb column lock: first course fixes jamb width per parity; pier align + shared pier honour it",
+        "git":  "6cf4199",
+        "file":  "archive/estim8_poc_tools_extension_1.14.91.rbz"
+    },
+    {
+        "version":  "1.14.90",
+        "date":  "2026-09-14",
+        "notes":  "Jamb column one pattern: canonical_jamb_map! + pier module align no row skip",
+        "git":  "6cf4199",
+        "file":  "archive/estim8_poc_tools_extension_1.14.90.rbz"
+    },
+    {
+        "version":  "1.14.89",
+        "date":  "2026-09-14",
+        "notes":  "Shared pier gap +20mm slack (804 -\u003e 400 400); module align rebuilds 300 jambs (1391)",
+        "git":  "6cf4199",
+        "file":  "archive/estim8_poc_tools_extension_1.14.89.rbz"
+    },
+    {
         "version":  "1.14.88",
         "date":  "2026-09-11",
         "notes":  "Bump Estim8ToolSketchup: user block pick always wins + deep lintel band (v1.14.87)",
@@ -446,257 +698,5 @@
         "notes":  "Resolve ZZ Superseded component names back to the real block when one exists",
         "git":  "87785d7",
         "file":  "archive/estim8_poc_tools_extension_1.14.25.rbz"
-    },
-    {
-        "version":  "1.14.24",
-        "date":  "2026-08-18",
-        "notes":  "Openings anchor to world coords: regenerate no longer replays frame-relative u against a rebuilt frame origin (drift fix)",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.24.rbz"
-    },
-    {
-        "version":  "1.14.23",
-        "date":  "2026-08-18",
-        "notes":  "Shared pier: offset palindrome rows (400 -\u003e 200+200, 800 -\u003e 200+400+200) so jamb blocks never stack the same joint",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.23.rbz"
-    },
-    {
-        "version":  "1.14.22",
-        "date":  "2026-08-18",
-        "notes":  "Revert v1.14.20 fall-through: always suppress shared-pier jambs so they never bleed into the next opening",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.22.rbz"
-    },
-    {
-        "version":  "1.14.21",
-        "date":  "2026-08-18",
-        "notes":  "Openings never move: drop clamp/shrink in opening_rect_for_match, warn instead",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.21.rbz"
-    },
-    {
-        "version":  "1.14.20",
-        "date":  "2026-08-18",
-        "notes":  "Shared pier: don\u0027t suppress own jamb solvers when fill is empty on a real gap (void guard)",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.20.rbz"
-    },
-    {
-        "version":  "1.14.19",
-        "date":  "2026-08-18",
-        "notes":  "Shared pier: cap overshoot 50mm so near-touching openings drop the mullion (no stray 200)",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.19.rbz"
-    },
-    {
-        "version":  "1.14.18",
-        "date":  "2026-08-18",
-        "notes":  "Shared pier: exhaustive standard-block fit, prefer cover over void; 450/490/500 gap -\u003e 300+200",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.18.rbz"
-    },
-    {
-        "version":  "1.14.17",
-        "date":  "2026-08-18",
-        "notes":  "Shared pier: avoid cut sliver, back off full-\u003etq so 500 gap lays 300+200 not 400+100",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.17.rbz"
-    },
-    {
-        "version":  "1.14.16",
-        "date":  "2026-08-18",
-        "notes":  "",
-        "git":  "61a0667",
-        "file":  "archive/estim8_poc_tools_extension_1.14.16.rbz"
-    },
-    {
-        "version":  "1.14.15",
-        "date":  "2026-08-18",
-        "notes":  "Bond beam wins top band: opening-top lintel never intrudes into reserved top bond-beam course",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.15.rbz"
-    },
-    {
-        "version":  "1.14.14",
-        "date":  "2026-08-18",
-        "notes":  "wip preview revert cull",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.14.rbz"
-    },
-    {
-        "version":  "1.14.13",
-        "date":  "2026-08-18",
-        "notes":  "wip preview revert cull",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.13.rbz"
-    },
-    {
-        "version":  "1.14.12",
-        "date":  "2026-08-18",
-        "notes":  "wip preview cache",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.12.rbz"
-    },
-    {
-        "version":  "1.14.11",
-        "date":  "2026-08-18",
-        "notes":  "wip preview cull",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.11.rbz"
-    },
-    {
-        "version":  "1.14.10",
-        "date":  "2026-08-18",
-        "notes":  "wip preview depth",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.10.rbz"
-    },
-    {
-        "version":  "1.14.9",
-        "date":  "2026-08-18",
-        "notes":  "wip preview",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.9.rbz"
-    },
-    {
-        "version":  "1.14.8",
-        "date":  "2026-08-18",
-        "notes":  "wip",
-        "git":  "ba66583",
-        "file":  "archive/estim8_poc_tools_extension_1.14.8.rbz"
-    },
-    {
-        "version":  "1.14.7",
-        "date":  "2026-08-18",
-        "notes":  " ",
-        "git":  "3cb916a",
-        "file":  "archive/estim8_poc_tools_extension_1.14.7.rbz"
-    },
-    {
-        "version":  "1.14.6",
-        "date":  "2026-08-18",
-        "notes":  "Bump Estim8ToolSketchup: export perf + report ruling (v1.14.5)",
-        "git":  "3cb916a",
-        "file":  "archive/estim8_poc_tools_extension_1.14.6.rbz"
-    },
-    {
-        "version":  "1.14.5",
-        "date":  "2026-08-18",
-        "notes":  "Trace BoxSections entry and its bulk read",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.5.rbz"
-    },
-    {
-        "version":  "1.14.4",
-        "date":  "2026-08-18",
-        "notes":  "Report how many sections the boxer found",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.4.rbz"
-    },
-    {
-        "version":  "1.14.3",
-        "date":  "2026-08-18",
-        "notes":  "PERF marks report the grid range actually used",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.3.rbz"
-    },
-    {
-        "version":  "1.14.2",
-        "date":  "2026-08-18",
-        "notes":  "One try per step so a merged-cell error cannot swallow the ruling",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.2.rbz"
-    },
-    {
-        "version":  "1.14.1",
-        "date":  "2026-08-18",
-        "notes":  "Box each series block and floor section over the light grid",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.1.rbz"
-    },
-    {
-        "version":  "1.14.0",
-        "date":  "2026-08-18",
-        "notes":  "Table runs B..last data column; column A and the right stay plain",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.14.0.rbz"
-    },
-    {
-        "version":  "1.13.99",
-        "date":  "2026-08-18",
-        "notes":  "Rule the table, strip formatting to the right of it",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.99.rbz"
-    },
-    {
-        "version":  "1.13.98",
-        "date":  "2026-08-18",
-        "notes":  "Default template: rule every row across the 11 report columns, nothing beyond",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.98.rbz"
-    },
-    {
-        "version":  "1.13.97",
-        "date":  "2026-08-18",
-        "notes":  "Copy borders per edge; order floors alphabetically on both sheets",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.97.rbz"
-    },
-    {
-        "version":  "1.13.96",
-        "date":  "2026-08-18",
-        "notes":  "Clear the destination formatting before cloning, then repaint from the source",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.96.rbz"
-    },
-    {
-        "version":  "1.13.95",
-        "date":  "2026-08-18",
-        "notes":  "Disable format copying in CloneRows to isolate the black rows",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.95.rbz"
-    },
-    {
-        "version":  "1.13.94",
-        "date":  "2026-08-18",
-        "notes":  "Read cloned formatting through MergeArea and never assign a null colour",
-        "git":  "a011dae",
-        "file":  "archive/estim8_poc_tools_extension_1.13.94.rbz"
-    },
-    {
-        "version":  "1.13.93",
-        "date":  "2026-08-18",
-        "notes":  "Drop the COM latency probe",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.93.rbz"
-    },
-    {
-        "version":  "1.13.92",
-        "date":  "2026-08-18",
-        "notes":  "One CloneRows for every section clone; never paint a mixed row black",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.92.rbz"
-    },
-    {
-        "version":  "1.13.91",
-        "date":  "2026-08-18",
-        "notes":  "Write cloned section values cell by cell (PS cannot bind the 2-D Value2 setter)",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.91.rbz"
-    },
-    {
-        "version":  "1.13.90",
-        "date":  "2026-08-18",
-        "notes":  "Clone wall floor sections by values + a few formats instead of Range.Copy",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.90.rbz"
-    },
-    {
-        "version":  "1.13.89",
-        "date":  "2026-08-18",
-        "notes":  "Clone only as wide as the report really is (LastCol)",
-        "git":  "bf6c647",
-        "file":  "archive/estim8_poc_tools_extension_1.13.89.rbz"
     }
 ]
