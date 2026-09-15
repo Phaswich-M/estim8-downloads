@@ -1,5 +1,75 @@
 [
     {
+        "version":  "1.15.34",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond: restore Wall Setup pattern pick, no row alternation (v1.15.33)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.34.rbz"
+    },
+    {
+        "version":  "1.15.33",
+        "date":  "2026-09-15",
+        "notes":  "Regenerate overlays latest Wall Setup pattern (Running/Stack Bond)",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.33.rbz"
+    },
+    {
+        "version":  "1.15.32",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond: corner owner parity = first visible course (match quoin/reservation), fixes curve-jog z-fight",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.32.rbz"
+    },
+    {
+        "version":  "1.15.31",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond: skip non-owner corner block + anchor at curve jogs",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.31.rbz"
+    },
+    {
+        "version":  "1.15.30",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond: skip field relay, cut to fit instead of lapping H",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.30.rbz"
+    },
+    {
+        "version":  "1.15.29",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond corner: anchor grid on non-owning right corner so its corner block is full",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.29.rbz"
+    },
+    {
+        "version":  "1.15.28",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond corner: non-owner end piece = picked corner block, both legs meet",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.28.rbz"
+    },
+    {
+        "version":  "1.15.27",
+        "date":  "2026-09-15",
+        "notes":  "Stack Bond: jamb + shared pier no row alternation",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.27.rbz"
+    },
+    {
+        "version":  "1.15.26",
+        "date":  "2026-09-14",
+        "notes":  "Stack Bond: corner owner constant every course (row_corner_bounds, quoin, curve-corner filter)",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.26.rbz"
+    },
+    {
+        "version":  "1.15.25",
+        "date":  "2026-09-14",
+        "notes":  "Wall Setup: restore Pattern dropdown (Running Bond / Stack Bond)",
+        "git":  "7e8dfa8",
+        "file":  "archive/estim8_poc_tools_extension_1.15.25.rbz"
+    },
+    {
         "version":  "1.15.24",
         "date":  "2026-09-14",
         "notes":  "Wall-end 300 remainder: right end lays a plain H 300 instead of a lapped 400 (v1.15.23)",
@@ -628,75 +698,5 @@
         "notes":  "Pier jamb module align: enumerate both jambs, pick largest whole-module field",
         "git":  "5ecd9df",
         "file":  "archive/estim8_poc_tools_extension_1.14.35.rbz"
-    },
-    {
-        "version":  "1.14.34",
-        "date":  "2026-08-18",
-        "notes":  "Revert jamb-face alternation, back to v1.14.32 pier module alignment",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.34.rbz"
-    },
-    {
-        "version":  "1.14.33",
-        "date":  "2026-08-18",
-        "notes":  "Pier module alignment alternates the adjusted jamb face per course so no jamb block sits beside its twin",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.33.rbz"
-    },
-    {
-        "version":  "1.14.32",
-        "date":  "2026-08-18",
-        "notes":  "Pier module alignment at the side_pieces_map layer so pieces and blockers agree",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.32.rbz"
-    },
-    {
-        "version":  "1.14.31",
-        "date":  "2026-08-18",
-        "notes":  "Revert pier module alignment: adjusting jamb pieces without adjusting blockers overlapped field H blocks",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.31.rbz"
-    },
-    {
-        "version":  "1.14.30",
-        "date":  "2026-08-18",
-        "notes":  "Pier module alignment: nudge one jamb a standard step so the field lands on whole 400s",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.30.rbz"
-    },
-    {
-        "version":  "1.14.29",
-        "date":  "2026-08-18",
-        "notes":  "Pier: whole H blocks that overlap instead of a cut piece (overlap H, don\u0027t cut)",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.29.rbz"
-    },
-    {
-        "version":  "1.14.28",
-        "date":  "2026-08-18",
-        "notes":  "Pier re-lay: count a cut as any field width off 400 (block_width_kind called 351 seven_eighth)",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.28.rbz"
-    },
-    {
-        "version":  "1.14.27",
-        "date":  "2026-08-18",
-        "notes":  "Pier re-lay: field runs laid flush so full blocks win, one remainder instead of a cut at both jamb faces",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.27.rbz"
-    },
-    {
-        "version":  "1.14.26",
-        "date":  "2026-08-18",
-        "notes":  "Zone fill: fewest cut pieces wins before grid-alignment bonus",
-        "git":  "6a3c3a5",
-        "file":  "archive/estim8_poc_tools_extension_1.14.26.rbz"
-    },
-    {
-        "version":  "1.14.25",
-        "date":  "2026-08-18",
-        "notes":  "Resolve ZZ Superseded component names back to the real block when one exists",
-        "git":  "87785d7",
-        "file":  "archive/estim8_poc_tools_extension_1.14.25.rbz"
     }
 ]
