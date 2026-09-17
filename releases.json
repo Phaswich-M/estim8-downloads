@@ -1,5 +1,278 @@
 [
     {
+        "version":  "1.15.73",
+        "date":  "2026-09-17",
+        "notes":  "Opening placement keeps wall\u0027s own saved settings; only manual Regenerate adopts latest Wall Setup (v1.15.73)",
+        "git":  "169ed24",
+        "file":  "archive/estim8_poc_tools_extension_1.15.73.rbz"
+    },
+    {
+        "version":  "1.15.72",
+        "date":  "2026-09-17",
+        "notes":  "Any ~300 field h_block renders as clean three-quarter (20.02) SKU, all positions; gated ESTIM8_END_TQ",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.72.rbz"
+    },
+    {
+        "version":  "1.15.71",
+        "date":  "2026-09-17",
+        "notes":  "Wall-end ~300 field closer renders as clean 20.02 three-quarter jamb (not scaled red H); gated ESTIM8_END_TQ",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.71.rbz"
+    },
+    {
+        "version":  "1.15.70",
+        "date":  "2026-09-17",
+        "notes":  "Revert inert plain-wallend branch (never fired; 300 is on a different path)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.70.rbz"
+    },
+    {
+        "version":  "1.15.69",
+        "date":  "2026-09-17",
+        "notes":  "Plain wall-spanning course: move wall-length remainder to LEFT as clean 200/300 jamb closer (was right-end H cut); gated ",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.69.rbz"
+    },
+    {
+        "version":  "1.15.68",
+        "date":  "2026-09-17",
+        "notes":  "PierDump: also dump rows 1-4 (bottom courses without side_pieces) to see the 300 field-H there",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.68.rbz"
+    },
+    {
+        "version":  "1.15.67",
+        "date":  "2026-09-17",
+        "notes":  "revert v1.15.66 metric change (regressed W06/W07); restore frac min-grid-distance pick",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.67.rbz"
+    },
+    {
+        "version":  "1.15.66",
+        "date":  "2026-09-17",
+        "notes":  "jamb pick = min ACTUAL wall-end remainder (not min grid distance); fixes W10/W11 300 field-H, keeps W07 flush",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.66.rbz"
+    },
+    {
+        "version":  "1.15.65",
+        "date":  "2026-09-17",
+        "notes":  "shared_pier left-jamb width = OPEN_JAMB corner-flush target (grid_ir frac), continuous with rows below; PIER log shows tgt",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.65.rbz"
+    },
+    {
+        "version":  "1.15.64",
+        "date":  "2026-09-17",
+        "notes":  "shared_pier_pieces: left-jamb phase follows field grid_il (continuous with OPEN_JAMB) instead of row parity",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.64.rbz"
+    },
+    {
+        "version":  "1.15.63",
+        "date":  "2026-09-17",
+        "notes":  "pier module: pick left-jamb width from field grid (grid_il) not row parity -\u003e pier phase continuous with adjacent OPEN_JAMB (W06 right no vertical 200/200 stack)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.63.rbz"
+    },
+    {
+        "version":  "1.15.62",
+        "date":  "2026-09-17",
+        "notes":  "OPEN_JAMB also fires when neighbour opening does not cut this course (W06 right / W07 left rows below W07) -\u003e corner-flush, no wall-end remainder",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.62.rbz"
+    },
+    {
+        "version":  "1.15.61",
+        "date":  "2026-09-17",
+        "notes":  "wall_end_run: only anchor-relay when field is flush to corner; off-grid opening (W06) keeps corner grid, no corner sliver",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.61.rbz"
+    },
+    {
+        "version":  "1.15.60",
+        "date":  "2026-09-17",
+        "notes":  "fix: r0 leftover in OPEN_JAMB log -\u003e span_c",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.60.rbz"
+    },
+    {
+        "version":  "1.15.59",
+        "date":  "2026-09-17",
+        "notes":  "OPEN_JAMB picks 200/400 that makes field flush to corner (no wall-end remainder)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.59.rbz"
+    },
+    {
+        "version":  "1.15.58",
+        "date":  "2026-09-17",
+        "notes":  "WALLEND remainder ~200/300 rendered as standard half/tq closer, not a cut field H",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.58.rbz"
+    },
+    {
+        "version":  "1.15.57",
+        "date":  "2026-09-17",
+        "notes":  "WALLEND relay: whole 400s flush from OPEN_JAMB + one ~200 closer at corner, no lapped 400 (W07-right overlap)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.57.rbz"
+    },
+    {
+        "version":  "1.15.56",
+        "date":  "2026-09-17",
+        "notes":  "fix: half undefined in extend_pier_jambs_map! OPEN_JAMB -\u003e full/2.0",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.56.rbz"
+    },
+    {
+        "version":  "1.15.55",
+        "date":  "2026-09-17",
+        "notes":  "OPEN_JAMB: single 200/400 pier_extend for open-field end jamb; relay lays field flush from it (kills W07-right 300 + cut)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.55.rbz"
+    },
+    {
+        "version":  "1.15.54",
+        "date":  "2026-09-17",
+        "notes":  "wall_end_run: reach 2 blocks from boundary (kills W07-right relay overlap on 600-remainder parity)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.54.rbz"
+    },
+    {
+        "version":  "1.15.53",
+        "date":  "2026-09-17",
+        "notes":  "Revert v1.15.52 coupled change (badly broke field); restore v1.15.51 (guard + sliver-drop, no combo alternation)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.53.rbz"
+    },
+    {
+        "version":  "1.15.52",
+        "date":  "2026-09-17",
+        "notes":  "Jamb 200\u003c-\u003e400 alternation for wide field-facing gaps + relay back to baseline (field re-anchors from jamb, tiles 400s)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.52.rbz"
+    },
+    {
+        "version":  "1.15.51",
+        "date":  "2026-09-17",
+        "notes":  "Drop sub-150 field slivers hard against any jamb/opening blocker edge (off-grid opening remnants)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.51.rbz"
+    },
+    {
+        "version":  "1.15.50",
+        "date":  "2026-09-16",
+        "notes":  "Relay guard: skip only high-u (right) wall-end runs; keep left-end relay so left 300 jamb returns",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.50.rbz"
+    },
+    {
+        "version":  "1.15.49",
+        "date":  "2026-09-16",
+        "notes":  "Revert combo change (made slivers/overlaps worse); keep relay wall-end guard (v1.15.46)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.49.rbz"
+    },
+    {
+        "version":  "1.15.48",
+        "date":  "2026-09-16",
+        "notes":  "Jamb: wide ~500 gap = single alternating block (400\u003c-\u003e200) not stacked 400 or 200+300 combo",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.48.rbz"
+    },
+    {
+        "version":  "1.15.47",
+        "date":  "2026-09-16",
+        "notes":  "Jamb: single full block for a 400-600 gap instead of exact 200+300 combo (cleaner running bond)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.47.rbz"
+    },
+    {
+        "version":  "1.15.46",
+        "date":  "2026-09-16",
+        "notes":  "Relay: keep global field grid on long corner/wall-end runs right of an opening (no jamb re-anchor phase flip)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.46.rbz"
+    },
+    {
+        "version":  "1.15.45",
+        "date":  "2026-09-16",
+        "notes":  "Add PierDump diagnostic (gated), log-only",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.45.rbz"
+    },
+    {
+        "version":  "1.15.44",
+        "date":  "2026-09-16",
+        "notes":  "Revert today\u0027s Running-Bond field/jamb changes to v1.15.23 baseline; keep only Stack-Bond-gated logic",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.44.rbz"
+    },
+    {
+        "version":  "1.15.43",
+        "date":  "2026-09-16",
+        "notes":  "End-jamb 100mm swap off by default: it shifted every course above an opening off the wall\u0027s bond grid",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.43.rbz"
+    },
+    {
+        "version":  "1.15.42",
+        "date":  "2026-09-16",
+        "notes":  "Relay only pier-anchored runs; open runs keep the row\u0027s running-bond grid",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.42.rbz"
+    },
+    {
+        "version":  "1.15.41",
+        "date":  "2026-09-16",
+        "notes":  "Wall-end 300 jamb experiment off by default ($ESTIM8_WALLEND_300); it cut H at the end and left a 100 filler",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.41.rbz"
+    },
+    {
+        "version":  "1.15.40",
+        "date":  "2026-09-16",
+        "notes":  "Relay EVEN: keep the row\u0027s own joint phase, not the jamb edge (long field stacked after deleting openings)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.40.rbz"
+    },
+    {
+        "version":  "1.15.39",
+        "date":  "2026-09-16",
+        "notes":  "Refuse regenerate/opening placement while a group is open for editing",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.39.rbz"
+    },
+    {
+        "version":  "1.15.38",
+        "date":  "2026-09-16",
+        "notes":  "Opening add/clear rebuild follows latest Wall Setup pattern, not the face\u0027s built-with one",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.38.rbz"
+    },
+    {
+        "version":  "1.15.37",
+        "date":  "2026-09-16",
+        "notes":  "Clear opening by marker identity: deleting one W08 no longer takes the other",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.37.rbz"
+    },
+    {
+        "version":  "1.15.36",
+        "date":  "2026-09-16",
+        "notes":  "Marker labels keyed by marker pid too (duplicate W08 keeps both texts)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.36.rbz"
+    },
+    {
+        "version":  "1.15.35",
+        "date":  "2026-09-16",
+        "notes":  "Opening identity = marker persistent_id, not code (duplicate W08 no longer erases the first)",
+        "git":  "a10746d",
+        "file":  "archive/estim8_poc_tools_extension_1.15.35.rbz"
+    },
+    {
         "version":  "1.15.34",
         "date":  "2026-09-15",
         "notes":  "Stack Bond: restore Wall Setup pattern pick, no row alternation (v1.15.33)",
@@ -425,278 +698,5 @@
         "notes":  "Relay lays whole blocks on the row grid and concentrates the lap in one block at the reveal",
         "git":  "c680d4f",
         "file":  "archive/estim8_poc_tools_extension_1.14.74.rbz"
-    },
-    {
-        "version":  "1.14.73",
-        "date":  "2026-09-03",
-        "notes":  "Half-height row keeps its natural grid: no fence on the row = no even-lap relay",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.73.rbz"
-    },
-    {
-        "version":  "1.14.72",
-        "date":  "2026-09-03",
-        "notes":  "Jamb block landing on the top bond-beam course renders as bond beam (300mm band case)",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.72.rbz"
-    },
-    {
-        "version":  "1.14.71",
-        "date":  "2026-09-03",
-        "notes":  "Cleanout/half-height rows take grid phase from the corner tooth, not row parity",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.71.rbz"
-    },
-    {
-        "version":  "1.14.70",
-        "date":  "2026-09-03",
-        "notes":  "300mm top band: fire on geometry, not on a model-catalogue lookup that is empty until a 20.25 exists",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.70.rbz"
-    },
-    {
-        "version":  "1.14.69",
-        "date":  "2026-09-03",
-        "notes":  "Allow three_quarter_lintel (20.25) in above-opening role query so the 300mm band fires",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.69.rbz"
-    },
-    {
-        "version":  "1.14.68",
-        "date":  "2026-09-03",
-        "notes":  "Cleanout/half-height rows keep the running-bond datum at a left corner (base two courses stacked)",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.68.rbz"
-    },
-    {
-        "version":  "1.14.67",
-        "date":  "2026-09-03",
-        "notes":  "Relay diagnostic: dump run/branch/fence under ESTIM8_ROWDUMP_ALL",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.67.rbz"
-    },
-    {
-        "version":  "1.14.66",
-        "date":  "2026-09-03",
-        "notes":  "RowDump: honour ESTIM8_ROWDUMP_ALL on CLEAN/ELSE rows (diagnostic only)",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.66.rbz"
-    },
-    {
-        "version":  "1.14.65",
-        "date":  "2026-09-03",
-        "notes":  "300mm top band above opening = one 3/4 High Lintel course, no bond beam over opening",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.65.rbz"
-    },
-    {
-        "version":  "1.14.64",
-        "date":  "2026-09-03",
-        "notes":  "Cleanout row 0 rides shared running-bond datum (fixes stack bond vs row 1)",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.64.rbz"
-    },
-    {
-        "version":  "1.14.63",
-        "date":  "2026-08-19",
-        "notes":  "Bump Estim8ToolSketchup: jamb/field edge-kiss + shared-pier zone blockers (v1.14.62)",
-        "git":  "c680d4f",
-        "file":  "archive/estim8_poc_tools_extension_1.14.63.rbz"
-    },
-    {
-        "version":  "1.14.62",
-        "date":  "2026-08-19",
-        "notes":  "Field block that kisses a jamb edge no longer vetoed (1mm kiss_shrink) - fixes 400mm hole under sill",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.62.rbz"
-    },
-    {
-        "version":  "1.14.61",
-        "date":  "2026-08-19",
-        "notes":  "Temp FieldDraw dump behind ESTIM8_ROWDUMP_ALL to find the missing jamb-adjacent field block",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.61.rbz"
-    },
-    {
-        "version":  "1.14.60",
-        "date":  "2026-08-19",
-        "notes":  "Jamb-cut field slivers get the near_reservation scale trust (grey mock box to real H block)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.60.rbz"
-    },
-    {
-        "version":  "1.14.59",
-        "date":  "2026-08-19",
-        "notes":  "Shared pier: reserve whole pier span as zone blocker so field H blocks stop overlapping the jamb column (W13 D17)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.59.rbz"
-    },
-    {
-        "version":  "1.14.58",
-        "date":  "2026-08-19",
-        "notes":  "Disable JAMB_ALT: widened jamb overlapped H blocks (zone width not widened)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.58.rbz"
-    },
-    {
-        "version":  "1.14.57",
-        "date":  "2026-08-19",
-        "notes":  "Jamb alternation: exact-fit single 300 repeating at opening edge gets a full block at the jamb (JAMB_ALT, kill switch \\)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.57.rbz"
-    },
-    {
-        "version":  "1.14.56",
-        "date":  "2026-08-19",
-        "notes":  "Revert v1.14.55 jamb exact-fit narrowing (overlapping blocks across the wall)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.56.rbz"
-    },
-    {
-        "version":  "1.14.55",
-        "date":  "2026-08-19",
-        "notes":  "Jamb: exact-fit only exempts a FULL block from the same-as-prev guard (300 was stacking on 300 at the opening edge)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.55.rbz"
-    },
-    {
-        "version":  "1.14.54",
-        "date":  "2026-08-19",
-        "notes":  "Scope pier-relay ceil to the cleanout row; full-height rows keep the old count",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.54.rbz"
-    },
-    {
-        "version":  "1.14.53",
-        "date":  "2026-08-19",
-        "notes":  "Pier relay block count uses ceil so the run is always covered (589 pier left a 189 void)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.53.rbz"
-    },
-    {
-        "version":  "1.14.52",
-        "date":  "2026-08-19",
-        "notes":  "Pin pier relay last block to run end (float overshoot was vetoing the block against the opening); drop debug",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.52.rbz"
-    },
-    {
-        "version":  "1.14.51",
-        "date":  "2026-08-19",
-        "notes":  "PierDraw debug: trace row-0 pier pieces through the render veto",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.51.rbz"
-    },
-    {
-        "version":  "1.14.50",
-        "date":  "2026-08-19",
-        "notes":  "Re-add PierRelay debug (cleanout row fence diagnosis)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.50.rbz"
-    },
-    {
-        "version":  "1.14.49",
-        "date":  "2026-08-19",
-        "notes":  "Cleanout row pier: fence relay on opening edges so 1140 pier lays 3x400 instead of a 140 void",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.49.rbz"
-    },
-    {
-        "version":  "1.14.48",
-        "date":  "2026-08-19",
-        "notes":  "Drop PierRelay debug dump; pier layout confirmed good",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.48.rbz"
-    },
-    {
-        "version":  "1.14.47",
-        "date":  "2026-08-19",
-        "notes":  "Pier relay block survives render: jamb blockers no longer veto a block that laps them on purpose",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.47.rbz"
-    },
-    {
-        "version":  "1.14.46",
-        "date":  "2026-08-19",
-        "notes":  "Debug: PierRelay run/fence dump",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.46.rbz"
-    },
-    {
-        "version":  "1.14.45",
-        "date":  "2026-08-19",
-        "notes":  "Pier field relay: detect the pier from the jamb BLOCKER edges (jambs are not in the grid row)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.45.rbz"
-    },
-    {
-        "version":  "1.14.44",
-        "date":  "2026-08-19",
-        "notes":  "Pier field: runs fenced by jambs both sides lay whole blocks with overlap instead of cuts",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.44.rbz"
-    },
-    {
-        "version":  "1.14.43",
-        "date":  "2026-08-19",
-        "notes":  "Revert whole-wall field relay of lone cells (caused holes); back to 1.14.41 field behaviour",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.43.rbz"
-    },
-    {
-        "version":  "1.14.42",
-        "date":  "2026-08-19",
-        "notes":  "Field relay: a lone short cell becomes one whole block overlapping the jambs, not a cut",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.42.rbz"
-    },
-    {
-        "version":  "1.14.41",
-        "date":  "2026-08-19",
-        "notes":  "Pier jamb: field module count may overlap the jambs by tol (1177 fits 2 blocks + two 200s)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.41.rbz"
-    },
-    {
-        "version":  "1.14.40",
-        "date":  "2026-08-19",
-        "notes":  "Pier jamb: rows may carry different field block counts; pick half-step pair with least jamb",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.40.rbz"
-    },
-    {
-        "version":  "1.14.39",
-        "date":  "2026-08-19",
-        "notes":  "Pier jamb: both jambs must step by a half block between rows (no 300 over 400)",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.39.rbz"
-    },
-    {
-        "version":  "1.14.38",
-        "date":  "2026-08-19",
-        "notes":  "Revert pier jamb rebuild (1.14.35-37) back to 1.14.34 behaviour",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.38.rbz"
-    },
-    {
-        "version":  "1.14.37",
-        "date":  "2026-08-19",
-        "notes":  "Pier jamb: choose even/odd layout pair by max joint offset (half bond), keep both piece orders",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.37.rbz"
-    },
-    {
-        "version":  "1.14.36",
-        "date":  "2026-08-19",
-        "notes":  "Pier jamb: rebuild both jamb groups to gap-derived target field, split alternates per row",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.36.rbz"
-    },
-    {
-        "version":  "1.14.35",
-        "date":  "2026-08-18",
-        "notes":  "Pier jamb module align: enumerate both jambs, pick largest whole-module field",
-        "git":  "5ecd9df",
-        "file":  "archive/estim8_poc_tools_extension_1.14.35.rbz"
     }
 ]
