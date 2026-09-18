@@ -1,5 +1,12 @@
 [
     {
+        "version":  "1.15.78",
+        "date":  "2026-09-18",
+        "notes":  "Straight-wall opening path also self-heals blank saved roles from current setup (h_block 20.48), no second Regenerate needed (v1.15.78)",
+        "git":  "169ed24",
+        "file":  "archive/estim8_poc_tools_extension_1.15.78.rbz"
+    },
+    {
         "version":  "1.15.77",
         "date":  "2026-09-18",
         "notes":  "Opening ops fill only BLANK saved roles from current setup (self-heal h_block 20.48), keep real per-wall picks; fixes red field turning cyan on opening remove (v1.15.77)",
@@ -691,12 +698,5 @@
         "notes":  "User block pick always wins: resolve def by library Tag code, no silent role-default swap, warn on missing",
         "git":  "56612f9",
         "file":  "archive/estim8_poc_tools_extension_1.14.79.rbz"
-    },
-    {
-        "version":  "1.14.78",
-        "date":  "2026-09-11",
-        "notes":  "20.20V bond beam: resolve def by Tag when #N name lost; promote skips other-code #N",
-        "git":  "56612f9",
-        "file":  "archive/estim8_poc_tools_extension_1.14.78.rbz"
     }
 ]
