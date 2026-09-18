@@ -1,5 +1,19 @@
 [
     {
+        "version":  "1.15.81",
+        "date":  "2026-09-18",
+        "notes":  "Opening ops: rebuild only the touched wall, adopting current Wall Setup",
+        "git":  "e6a7354",
+        "file":  "archive/estim8_poc_tools_extension_1.15.81.rbz"
+    },
+    {
+        "version":  "1.15.80",
+        "date":  "2026-09-18",
+        "notes":  "Opening ops: rebuild only the touched wall, adopting current Wall Setup",
+        "git":  "e6a7354",
+        "file":  "archive/estim8_poc_tools_extension_1.15.80.rbz"
+    },
+    {
         "version":  "1.15.79",
         "date":  "2026-09-18",
         "notes":  "Opening ops overlay current Wall Setup on the TOUCHED wall only (h_block 20.48, no 2nd Regenerate); path-scoping keeps untouched walls unchanged (v1.15.79)",
@@ -684,19 +698,5 @@
         "notes":  "Picked block: healthy own def -\u003e legacy resolver (fix rotated H); Tag lookup only when name shuffled, axes from placed def",
         "git":  "2cd013b",
         "file":  "archive/estim8_poc_tools_extension_1.14.82.rbz"
-    },
-    {
-        "version":  "1.14.81",
-        "date":  "2026-09-11",
-        "notes":  "Picked block: tag index skips generated blocks by DICT kind (any parent); tag miss falls back to block\u0027s own name, never role default",
-        "git":  "2cd013b",
-        "file":  "archive/estim8_poc_tools_extension_1.14.81.rbz"
-    },
-    {
-        "version":  "1.14.80",
-        "date":  "2026-09-11",
-        "notes":  "Build: ship corner_pick.rb, drop deleted block_ownership.rb; user block pick always wins",
-        "git":  "2cd013b",
-        "file":  "archive/estim8_poc_tools_extension_1.14.80.rbz"
     }
 ]
